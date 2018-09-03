@@ -1,0 +1,4 @@
+T1	Species 24 27	rat
+T2	Brain_Region 28 37	layer 2/3
+T3	Neuron 28 45	layer 2/3 neurons
+T4	Ionic_Conductance 196 212	persistent g(Na)

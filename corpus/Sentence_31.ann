@@ -1,0 +1,10 @@
+T1	Ionic_Current 61 64	ITs
+T2	Ionic_Current 69 75	IK(Ca)
+T3	Ionic_Current 117 121	ICAN
+T4	Modelling_Parameter 199 217	membrane potential
+T5	Experimental_Value 244 250	-61 mV
+T6	Units 248 250	mV
+T7	Modelling_Parameter 262 274;301 310	tonic firing frequency
+T8	Experimental_Value 291 300	10-200-Hz
+T9	Units 298 300	Hz
+T10	Modelling_Parameter 334 367	amplitude of the injected current

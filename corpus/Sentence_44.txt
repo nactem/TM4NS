@@ -1,0 +1,1 @@
+The low-threshold Ca2+ spike of rodent neurons was successfully modeled with the active currents I(T), IL, IA, IC, and IK2.

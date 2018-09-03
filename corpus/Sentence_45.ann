@@ -1,0 +1,6 @@
+T1	Species 12 20	NEC rats
+T2	Brain_Region 22 30	amygdala
+T3	Neuron 132 158	thalamic reticular nucleus
+T4	Modelling_Parameter 190 202	firing rates
+T5	Modelling_Parameter 217 229	burst firing
+T6	Brain_Region 160 163	TRN

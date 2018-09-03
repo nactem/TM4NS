@@ -1,0 +1,3 @@
+T1	Ionic_Current 56 98	hyperpolarization-activated cation current
+T2	Ionic_Current 100 102	Ih
+T3	Ionic_Channel 169 179	T -channel

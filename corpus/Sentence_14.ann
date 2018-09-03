@@ -1,0 +1,4 @@
+T1	Brain_Region 55 81	reticular thalamic nucleus
+T2	Neuron 10 22;30 81	Fast spiking GABAergic neurons of the reticular thalamic nucleus
+T3	Neuron 25 27	FS
+T4	Brain_Region 83 86	RTN

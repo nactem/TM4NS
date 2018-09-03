@@ -1,0 +1,6 @@
+T1	Species 59 74	lethargic mouse
+T2	Species 22 42;69 74	homozygous tottering mouse
+T3	Species 44 53	Cacna1atg
+T4	Species 76 86	Cacnb4(lh)
+T5	Ionic_Channel 213 240	voltage-gated Ca2+ channels
+T6	Ionic_Channel 242 247	VGCCs
