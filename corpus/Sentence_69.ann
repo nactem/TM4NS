@@ -1,5 +1,0 @@
-T1	Brain_Region 49 77	thalamic nucleus reticularis
-T2	Neuron 49 77;85 92	thalamic nucleus reticularis neurons
-T3	Neuron 98 125	thalamocortical relay cells
-T4	Brain_Region 80 83	nRt
-T5	Neuron 127 130	TCs

@@ -1,9 +1,0 @@
-T1	Neuron 78 100	thalamic relay neurons
-T2	Ionic_Current 286 331	transient, low-voltage-activated Ca2+ current
-T3	Ionic_Current 342 383	rapidly inactivating transient K+ current
-T4	Ionic_Current 394 424	slowly inactivating K+ current
-T5	Ionic_Current 440 491	hyperpolarization-activated, mixed cationic current
-T6	Ionic_Current 333 335	IT
-T7	Ionic_Current 385 387	IA
-T8	Ionic_Current 426 429	IK2
-T9	Ionic_Current 493 495	Ih

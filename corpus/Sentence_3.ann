@@ -1,8 +1,0 @@
-T1	Brain_Region 14 36	medial geniculate body
-T2	Brain_Region 14 36;74 81	medial geniculate body ventral
-T3	Brain_Region 14 36;89 95	medial geniculate body dorsal
-T4	Brain_Region 107 113;14 36	medial medial geniculate body
-T5	Brain_Region 39 42	MGB
-T6	Brain_Region 83 86	MGV
-T7	Brain_Region 97 100	MGD
-T8	Brain_Region 115 118	MGM
