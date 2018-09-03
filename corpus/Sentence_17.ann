@@ -1,0 +1,10 @@
+T1	Species 3 14	normal rats
+T2	Brain_Region 72 75	DLG
+T3	Brain_Region 86 112	external layer of the VLGL
+T4	Brain_Region 124 149	internal layer of the VLG
+T5	Brain_Region 108 112	VLGL
+T6	Brain_Region 146 150	VLGL
+T7	Brain_Region 161 164	IGL
+T8	Brain_Region 201 205	VLGM
+T9	Brain_Region 220 231	optic tract
+T10	Neuron 174 205	caudomedial portion of the VLGM

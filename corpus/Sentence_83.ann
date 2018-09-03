@@ -1,0 +1,6 @@
+T1	Brain_Region 31 63	substantia nigra pars reticulata
+T2	Neuron 73 96	thalamocortical neurons
+T3	Brain_Region 104 118;124 140	ventral medial thalamic nucleus
+T4	Brain_Region 205 218	basal ganglia
+T5	Brain_Region 65 68	SNR
+T6	Brain_Region 120 122	VM

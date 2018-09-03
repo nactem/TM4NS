@@ -1,0 +1,8 @@
+T1	Ionic_Current 82 94	leak current
+T2	Ionic_Current 137 150	fast currents
+T3	Ionic_Current 193 202	INa(fast)
+T4	Ionic_Current 207 213	IK(DR)
+T5	Ionic_Current 223 245	persistent Na+ current
+T8	Ionic_Conductance 63 94	conductance of the leak current
+T9	Ionic_Current 247 253	INa(P)
+T10	Ionic_Current 96 104	IK(leak)

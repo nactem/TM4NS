@@ -1,0 +1,6 @@
+T1	Brain_Region 122 139	reticular nucleus
+T2	Brain_Region 194 208	cortical areas
+T3	Brain_Region 213 228	thalamic nuclei
+T4	Neuron 334 349	reticular cells
+T5	Neuron 353 373	thalamic relay cells
+T6	Brain_Region 509 535	thalamic reticular nucleus

@@ -1,0 +1,13 @@
+T1	Neuron 120 136;156 163	inferior olivary neurons
+T2	Neuron 141 163	thalamic relay neurons
+T3	Neuron 191 206;245 252	sensory ganglia neurons
+T4	Neuron 208 217;245 252	pituitary neurons
+T5	Neuron 223 252	dentate gyrus granule neurons
+T6	Brain_Region 223 236	dentate gyrus
+T7	Neuron 268 294	thalamic reticular neurons
+T8	Brain_Region 191 206	sensory ganglia
+T10	Ionic_Current 93 108	T-type currents
+T11	Ionic_Channel 254 261	alpha1H
+T12	Ionic_Channel 181 188	alpha1G
+T13	Ionic_Channel 296 303	alpha1I
+T14	Ionic_Channel 308 315	alpha1H

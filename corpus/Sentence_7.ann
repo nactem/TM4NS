@@ -1,0 +1,12 @@
+T1	Ionic_Current 15 34	HVA Ca(2+) currents
+T3	Brain_Region 81 96	thalamic nuclei
+T4	Brain_Region 247 292	dorsal part of the lateral geniculate nucleus
+T5	Brain_Region 306 334	ventrobasal thalamic complex
+T6	Brain_Region 348 374	reticular thalamic nucleus
+T7	Species 384 432	epileptic Wistar Albino Glaxo rats from Rijswijk
+T8	Species 461 484;491 495	August Copenhagen Irish rats
+T2	Brain_Region 295 299	dLGN
+T9	Brain_Region 336 338	VB
+T10	Brain_Region 376 379	NRT
+T11	Species 434 441	WAG/Rij
+T12	Species 486 489	ACI

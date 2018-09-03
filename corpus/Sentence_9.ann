@@ -1,0 +1,7 @@
+T1	Species 7 10	rat
+T2	Neuron 11 64	somatosensory thalamus PV immunoreactive (ir) neurons
+T3	Brain_Region 11 33	somatosensory thalamus
+T4	Brain_Region 98 124	reticular thalamic nucleus
+T5	Brain_Region 177 196	ventrobasal complex
+T6	Brain_Region 126 128	RT
+T7	Brain_Region 198 200	VB

@@ -1,0 +1,10 @@
+T1	Neuron 115 127	interneurons
+T2	Brain_Region 135 153;224 239	lateral geniculate thalamic nuclei
+T3	Brain_Region 162 183;224 239	ventral posteromedial thalamic nuclei
+T4	Brain_Region 195 217;224 239	ventral posterolateral thalamic nuclei
+T5	Species 277 288	Wistar rats
+T6	Species 293 338	genetic absence epilepsy rats from Strasbourg
+T7	Brain_Region 156 159	LGN
+T8	Brain_Region 185 188	VPM
+T9	Brain_Region 219 222	VPL
+T10	Species 340 345	GAERS

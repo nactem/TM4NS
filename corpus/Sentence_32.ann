@@ -1,0 +1,13 @@
+T1	Brain_Region 73 83	cerebellum
+T2	Neuron 46 59	Purkinje cell
+T3	Brain_Region 46 83	Purkinje cell layer of the cerebellum
+T4	Brain_Region 108 124	stria terminalis
+T5	Brain_Region 89 124	bed nucleus of the stria terminalis
+T6	Brain_Region 130 139	claustrum
+T8	Brain_Region 206 225	subthalamic nucleus
+T9	Ionic_Channel 141 148	alpha1G
+T7	Brain_Region 155 174	olfactory tubercles
+T10	Ionic_Channel 176 183	alpha1H
+T11	Ionic_Channel 188 195	alpha1I
+T12	Ionic_Channel 227 234	alpha1I
+T13	Ionic_Channel 239 246	alpha1G

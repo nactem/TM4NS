@@ -1,0 +1,7 @@
+T1	Neuron 58 73	GABA-ve neurons
+T2	Neuron 46 53;66 73	GABA+ve neurons
+T3	Brain_Region 81 104	intermediate TRN sector
+T4	Brain_Region 94 97	TRN
+T5	Species 108 153	genetic absence epilepsy rats from Strasbourg
+T6	Species 169 180	Wistar rats
+T7	Species 155 160	GAERS

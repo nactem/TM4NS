@@ -1,0 +1,5 @@
+T1	Neuron 143 172	thalamocortical relay neurons
+T2	Brain_Region 180 213	dorsal lateral geniculate nucleus
+T3	Ionic_Channel 48 70;77 90	high-voltage activated Ca2+ channels
+T4	Brain_Region 215 219	dLGN
+T5	Ionic_Channel 72 75	HVA
