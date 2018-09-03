@@ -1,0 +1,1 @@
+Possible mechanisms underlying the thalamic augmenting responses during repetitive stimulation were investigated with computer models of interacting thalamocortical (TC) and thalamic reticular (RE) cells.

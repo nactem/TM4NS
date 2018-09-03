@@ -1,0 +1,6 @@
+T1	Brain_Region 0 3	VPM
+T2	Neuron 0 9	VPM cells
+T3	Neuron 142 147;75 100	cells single-whisker excitation
+T4	Neuron 111 135;142 147	multi-whisker excitation cells
+T5	Neuron 102 105	SWE
+T6	Neuron 137 140	MWE

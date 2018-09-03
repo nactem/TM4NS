@@ -1,0 +1,1 @@
+In addition, simulations where the dendritic g(T) and g(K) were either reduced (both by up to 34%) or increased (both by up to 15%) of their respective value on the soma still admitted a successful reproduction of the experimental activity.

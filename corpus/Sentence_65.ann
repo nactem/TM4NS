@@ -1,0 +1,12 @@
+T1	Neuron 80 97	pyramidal neurons
+T2	Brain_Region 101 110;123 147;171 179	layers 5a of primary somatosensory cortices
+T3	Brain_Region 126 147;171 179	primary somatosensory cortices
+T4	Brain_Region 157 165;171 179	auditory cortices
+T5	Species 183 188	mouse
+T6	Brain_Region 149 151	S1
+T7	Brain_Region 167 169	A1
+T8	Brain_Region 101 107;113 115;123 147;171 179	layers 5b of primary somatosensory cortices
+T9	Brain_Region 101 107;121 122;123 147;171 179	layers 6 of primary somatosensory cortices
+T10	Brain_Region 101 110;157 165;171 179	layers 5a auditory cortices
+T11	Brain_Region 101 107;113 115;157 165;171 179	layers 5b auditory cortices
+T12	Brain_Region 101 107;121 122;157 165;171 179	layers 6 auditory cortices

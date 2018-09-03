@@ -1,0 +1,1 @@
+The propensity of thalamic neurons to fire postinhibitory rebound bursts mediated by low-threshold calcium spikes renders the circuit vulnerable to both increased excitation and increased inhibition , such as excessive excitatory cortical drive to thalamic reticular (RT) neurons or heightened inhibition of thalamocortical relay (TC) neurons by RT.

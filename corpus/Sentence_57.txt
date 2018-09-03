@@ -1,0 +1,1 @@
+(i) It is based on global (white-matter) thalamocortical anatomy obtained by means of diffusion tensor imaging (DTI) of a human brain.

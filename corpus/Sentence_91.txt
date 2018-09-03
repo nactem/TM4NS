@@ -1,0 +1,1 @@
+VPM cells comprised different classes, the most frequently occurring being single-whisker excitation (SWE) and multi-whisker excitation (MWE) cells.

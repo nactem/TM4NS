@@ -1,0 +1,6 @@
+T1	Neuron 107 115;86 101	neurones thalamocortical
+T2	Neuron 133 145	interneurone
+T3	Species 153 156	cat
+T4	Brain_Region 157 168;174 182	ventrobasal thalamus
+T8	Neuron 103 105	TC
+T9	Brain_Region 170 172	VB
