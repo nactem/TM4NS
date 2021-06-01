@@ -1,7 +1,0 @@
-T1	Brain_Region 23 36	basal ganglia
-T2	Neuron 48 72	reticular thalamic cells
-T3	Neuron 23 36;67 72	basal ganglia cells
-T4	Brain_Region 130 144	thalamic cells
-T5	Neuron 201 210	CTh cells
-T6	Neuron 216 219;233 238	CTh cells
-T7	Neuron 224 238	thalamic cells

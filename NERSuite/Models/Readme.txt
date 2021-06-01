@@ -1,0 +1,1 @@
+This folder will contain the NERSuite CRF models that we produced using active learning. These are ommitted here as they are very large. (several hundred MB) 

@@ -1,5 +1,0 @@
-T1	Neuron 74 96	deep principal neurons
-T2	Neuron 58 69;79 96	superficial principal neurons
-T3	Neuron 104 110	aspiny
-T4	Neuron 120 141	local circuit neurons
-T5	Ionic_Conductance 249 265	persistent g(Na)

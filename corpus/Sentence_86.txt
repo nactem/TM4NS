@@ -1,1 +1,0 @@
-Further analysis of the sAHP revealed an activity-dependent but Ca(2+)-independent component that was reduced in high [K(+)](o) and blockable after Na(+) substitution with Li(+) or in the presence of quinidine, suggesting a role for K(Na) channels.

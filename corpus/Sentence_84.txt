@@ -1,1 +1,0 @@
-Abstract: Thalamic paraventricular nucleus ( PVT) neurons exhibit a postburst apamin-resistant slow afterhyperpolarization (sAHP) that is unique to midline thalamus, displays activity dependence, and is abolished in tetrodotoxin.

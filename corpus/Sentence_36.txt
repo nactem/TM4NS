@@ -1,1 +1,0 @@
-Abstract: PURPOSE : While decades of research were devoted to study generation mechanisms of spontaneous spike and wave discharges (SWD), little attention has been paid to network mechanisms associated with the spontaneous termination of SWD.

@@ -1,9 +1,0 @@
-T1	Ionic_Current 129 151;158 171	high voltage-activated Ca2+ currents
-T2	Ionic_Current 158 171;97 118	Ca2+ currents low voltage-activated
-T3	Neuron 199 212	relay neurons
-T4	Neuron 217 229	interneurons
-T5	Species 237 240	rat
-T6	Brain_Region 241 274	dorsal lateral geniculate nucleus
-T7	Brain_Region 276 280	LGNd
-T8	Ionic_Current 120 123	LVA
-T9	Ionic_Current 153 156	HVA

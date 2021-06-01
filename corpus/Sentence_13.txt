@@ -1,1 +1,0 @@
-METHODS: Local-field potential recordings of 16 male WAG/Rij rats, equipped with multiple electrodes targeting layer 4 to 6 of the somatosensory-cortex (ctx4, ctx5, ctx6), rostral and caudal reticular thalamic nucleus (rRTN & cRTN), ventral postero medial (VPM), anterior- (ATN) and posterior (Po) thalamic nucleus, were obtained.

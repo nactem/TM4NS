@@ -1,1 +1,0 @@
-Spindles are highly synchronous across the scalp in the electroencephalogram (EEG) but have low spatial coherence and exhibit low correlation with the EEG when simultaneously measured in the magnetoencephalogram (MEG).

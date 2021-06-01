@@ -1,1 +1,0 @@
-Abstract: Electrical coupling mediates interactions between neurons of the thalamic reticular nucleus ( TRN), which play a critical role in regulating thalamocortical and corticothalamic communication by inhibiting thalamic relay cells.

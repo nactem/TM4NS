@@ -1,0 +1,3 @@
+processed 4776 tokens with 66 phrases; found: 54 phrases; correct: 50.
+accuracy:  99.52%; precision:  92.59%; recall:  75.76%; FB1:  83.33
+    ModelOrganism: precision:  92.59%; recall:  75.76%; FB1:  83.33  54

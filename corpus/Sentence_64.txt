@@ -1,1 +1,0 @@
-Abstract: The dynamics of intracellular calcium concentration ( [Ca2+]i) following activation of low voltage-activated (LVA) and high voltage-activated (HVA) Ca2+ currents were studied in identified relay neurons and interneurons of the rat dorsal lateral geniculate nucleus (LGNd) in situ using Ca2+ imaging and patch-clamp techniques.

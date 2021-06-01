@@ -1,1 +1,0 @@
-Using a simple neuronal model, the electrotonic length (L) and the dendritic to somatic conductance ratio (rho) were calculated and found to be similar for cells in both divisions of the l .g.n.

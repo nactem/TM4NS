@@ -1,0 +1,3 @@
+processed 4776 tokens with 383 phrases; found: 312 phrases; correct: 276.
+accuracy:  96.17%; precision:  88.46%; recall:  72.06%; FB1:  79.42
+           Neuron: precision:  88.46%; recall:  72.06%; FB1:  79.42  312

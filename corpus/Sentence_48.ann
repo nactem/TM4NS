@@ -1,9 +1,0 @@
-T1	Species 69 73	rats
-T2	Brain_Region 157 159	SI
-T3	Brain_Region 198 201	VPL
-T4	Brain_Region 269 272	VPL
-T5	Brain_Region 307 309	SI
-T7	Brain_Region 289 309	shoulder sites in SI
-T8	Brain_Region 276 284;298 309	forelimb sites in SI
-T9	Brain_Region 242 272	shoulder representation in VPL
-T10	Brain_Region 230 237;251 272	forepaw representation in VPL

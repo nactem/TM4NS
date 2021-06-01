@@ -1,1 +1,0 @@
-Abstract: Fast spiking ( FS), GABAergic neurons of the reticular thalamic nucleus (RTN) are capable of firing high -frequency trains of brief action potentials, with little adaptation.

@@ -1,1 +1,0 @@
-In the presence of uniform and non-uniform dendritic g(T) and g(K), the delta oscillation propagated from the soma to the distal dendrites with no change in frequency and voltage-dependence, though the dendritic action potential amplitude was gradually reduced towards the distal dendrites.

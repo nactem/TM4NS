@@ -1,8 +1,0 @@
-T1	Species 70 73	rat
-T2	Brain_Region 238 261;304 312;318 324	dorsolateral geniculate thalamic nuclei
-T3	Brain_Region 269 283;304 312;318 324	parafascicular thalamic nuclei
-T4	Brain_Region 294 312;318 324	reticular thalamic nuclei
-T5	Species 334 337	rat
-T6	Brain_Region 263 266	DLG
-T7	Brain_Region 285 287	PF
-T8	Brain_Region 314 316	Rt

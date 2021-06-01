@@ -1,1 +1,0 @@
-In vitro experiments in rat layer 2/3 neurons confirmed (as shown previously by others) that RS firing could be switched to fast rhythmic bursting, either by buffering [Ca(2+)](i) or by enhancing persistent g(Na).

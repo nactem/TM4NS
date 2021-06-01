@@ -1,0 +1,3 @@
+Regular expressions used in this work:
+
+Neuron types: .*(neuron(e?s)?)|(cells?)( .*)Ion Current: .*(current)s?Ion Channel: .*(channel)s?Ion Conductance: .*(conductance)s?Scientific Values: \d+(,\d{3})*(\.\d+)?

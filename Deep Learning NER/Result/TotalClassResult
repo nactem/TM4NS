@@ -1,0 +1,24 @@
+accuracy:  99.54%; precision:  35.29%; recall:  46.15%; FB1:  40.00
+          Synapse: precision:  35.29%; recall:  46.15%; FB1:  40.00  17
+Final F1 measure of dev set 40.0%
+accuracy:  99.48%; precision: 100.00%; recall:  66.67%; FB1:  80.00
+             Unit: precision: 100.00%; recall:  66.67%; FB1:  80.00  50
+Final F1 measure of dev set 80.0%
+accuracy:  98.43%; precision:  91.00%; recall:  64.54%; FB1:  75.52
+            Value: precision:  91.00%; recall:  64.54%; FB1:  75.52  100
+Final F1 measure of dev set 75.52%
+accuracy:  96.31%; precision:  96.70%; recall:  35.63%; FB1:  52.07
+     IonicCurrent: precision:  96.70%; recall:  35.63%; FB1:  52.07  91
+Final F1 measure of dev set 52.07%
+accuracy:  99.52%; precision:  92.59%; recall:  75.76%; FB1:  83.33
+    ModelOrganism: precision:  92.59%; recall:  75.76%; FB1:  83.33  54
+Final F1 measure of dev set 83.33%
+accuracy:  96.17%; precision:  88.46%; recall:  72.06%; FB1:  79.42
+           Neuron: precision:  88.46%; recall:  72.06%; FB1:  79.42  312
+Final F1 measure of dev set 79.42%
+accuracy:  97.45%; precision:  88.78%; recall:  71.31%; FB1:  79.09
+      BrainRegion: precision:  88.78%; recall:  71.31%; FB1:  79.09  196
+Final F1 measure of dev set 79.09%
+accuracy:  96.90%; precision:  29.41%; recall:   3.57%; FB1:   6.37
+        Parameter: precision:  29.41%; recall:   3.57%; FB1:   6.37  17
+Final F1 measure of dev set 6.37%

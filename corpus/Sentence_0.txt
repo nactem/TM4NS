@@ -1,1 +1,0 @@
-The frequency of this firing was also dependent on the maximum conductance of the leak current, IK(leak), and an interaction between the fast currents involved in generating action potentials, INa(fast) and IK(DR), and the persistent Na+ current, INa(P).

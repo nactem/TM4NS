@@ -1,1 +1,0 @@
-In SWE cells (36 % of VPM neurones), only principal whisker (PW) deflection evoked an EPSP and was followed by a single action potential (AP) or remained subthreshold.

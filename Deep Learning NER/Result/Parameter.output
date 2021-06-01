@@ -1,0 +1,9551 @@
+Neurons O O
+
+of O O
+
+the O O
+
+central O O
+
+nervous O O
+
+system O O
+
+display O O
+
+a O O
+
+broad O O
+
+spectrum O O
+
+of O O
+
+intrinsic O O
+
+electrophysiological O O
+
+properties O O
+
+that O O
+
+are O O
+
+absent O O
+
+in O O
+
+the O O
+
+traditional O O
+
+" O O
+
+integrate O O
+
+- O O
+
+and O O
+
+- O O
+
+fire O O
+
+" O O
+
+model O O
+
+. O O
+
+A O O
+
+network O O
+
+of O O
+
+neurons O O
+
+with O O
+
+these O O
+
+properties O O
+
+interacting O O
+
+through O O
+
+synaptic O O
+
+receptors O O
+
+with O O
+
+many O O
+
+time O O
+
+scales O O
+
+can O O
+
+produce O O
+
+complex O O
+
+patterns O O
+
+of O O
+
+activity O O
+
+that O O
+
+cannot O O
+
+be O O
+
+intuitively O O
+
+predicted O O
+
+. O O
+
+Computational O O
+
+methods O O
+
+, O O
+
+tightly O O
+
+linked O O
+
+to O O
+
+experimental O O
+
+data O O
+
+, O O
+
+provide O O
+
+insights O O
+
+into O O
+
+the O O
+
+dynamics O O
+
+of O O
+
+neural O O
+
+networks O O
+
+. O O
+
+We O O
+
+review O O
+
+this O O
+
+approach O O
+
+for O O
+
+the O O
+
+case O O
+
+of O O
+
+bursting O O
+
+neurons O O
+
+of O O
+
+the O O
+
+thalamus O O
+
+, O O
+
+with O O
+
+a O O
+
+focus O O
+
+on O O
+
+thalamic O O
+
+and O O
+
+thalamocortical O O
+
+slow O O
+
+- O O
+
+wave O O
+
+oscillations O O
+
+. O O
+
+At O O
+
+the O O
+
+single O O
+
+- O O
+
+cell O O
+
+level O O
+
+, O O
+
+intrinsic O O
+
+bursting O O
+
+or O O
+
+oscillations O O
+
+can O O
+
+be O O
+
+explained O O
+
+by O O
+
+interactions O O
+
+between O O
+
+calcium O O
+
+- O O
+
+and O O
+
+voltage O O
+
+- O O
+
+dependent O O
+
+channels O O
+
+. O O
+
+At O O
+
+the O O
+
+network O O
+
+level O O
+
+, O O
+
+the O O
+
+genesis O O
+
+of O O
+
+oscillations O O
+
+, O O
+
+their O O
+
+initiation O O
+
+, O O
+
+propagation O O
+
+, O O
+
+termination O O
+
+, O O
+
+and O O
+
+large O O
+
+- O O
+
+scale O O
+
+synchrony O O
+
+can O O
+
+be O O
+
+explained O O
+
+by O O
+
+interactions O O
+
+between O O
+
+neurons O O
+
+with O O
+
+a O O
+
+variety O O
+
+of O O
+
+intrinsic O O
+
+cellular O O
+
+properties O O
+
+through O O
+
+different O O
+
+types O O
+
+of O O
+
+synaptic O O
+
+receptors O O
+
+. O O
+
+These O O
+
+interactions O O
+
+can O O
+
+be O O
+
+altered O O
+
+by O O
+
+neuromodulators O O
+
+, O O
+
+which O O
+
+can O O
+
+dramatically O O
+
+shift O O
+
+the O O
+
+large O O
+
+- O O
+
+scale O O
+
+behavior O O
+
+of O O
+
+the O O
+
+network O O
+
+, O O
+
+and O O
+
+can O O
+
+also O O
+
+be O O
+
+disrupted O O
+
+in O O
+
+many O O
+
+ways O O
+
+, O O
+
+resulting O O
+
+in O O
+
+pathological O O
+
+patterns O O
+
+of O O
+
+activity O O
+
+, O O
+
+such O O
+
+as O O
+
+seizures O O
+
+. O O
+
+We O O
+
+suggest O O
+
+a O O
+
+coherent O O
+
+framework O O
+
+that O O
+
+accounts O O
+
+for O O
+
+a O O
+
+large O O
+
+body O O
+
+of O O
+
+experimental O O
+
+data O O
+
+at O O
+
+the O O
+
+ion O O
+
+- O O
+
+channel O O
+
+, O O
+
+single O O
+
+- O O
+
+cell O O
+
+, O O
+
+and O O
+
+network O O
+
+levels O O
+
+. O O
+
+This O O
+
+framework O O
+
+suggests O O
+
+physiological O O
+
+roles O O
+
+for O O
+
+the O O
+
+highly O O
+
+synchronized O O
+
+oscillations O O
+
+of O O
+
+slow O O
+
+- O O
+
+wave O O
+
+sleep O O
+
+. O O
+
+1 O O
+
+. O O
+
+GABAergic O O
+
+interneurones O O
+
+differ O O
+
+from O O
+
+glutamatergic O O
+
+principal O O
+
+neurones O O
+
+in O O
+
+their O O
+
+ability O O
+
+to O O
+
+discharge O O
+
+high O O
+
+- O O
+
+frequency O O
+
+trains O O
+
+of O O
+
+action O O
+
+potentials O O
+
+without O O
+
+adaptation O O
+
+. O O
+
+To O O
+
+examine O O
+
+whether O O
+
+Na+ O O
+
+channel O O
+
+gating O O
+
+contributed O O
+
+to O O
+
+these O O
+
+differences O O
+
+, O O
+
+Na+ O O
+
+currents O O
+
+were O O
+
+recorded O O
+
+in O O
+
+nucleated O O
+
+patches O O
+
+from O O
+
+interneurones O O
+
+( O O
+
+dentate O O
+
+gyrus O O
+
+basket O O
+
+cells O O
+
+, O O
+
+BCs O O
+
+) O O
+
+and O O
+
+principal O O
+
+neurones O O
+
+( O O
+
+CA1 O O
+
+pyramidal O O
+
+cells O O
+
+, O O
+
+PCs O O
+
+) O O
+
+of O O
+
+rat O O
+
+hippocampal O O
+
+slices O O
+
+. O O
+
+2 O O
+
+. O O
+
+The O O
+
+voltage O O
+
+dependence O O
+
+of O O
+
+Na+ B-Parameter O
+
+channel B-Parameter O
+
+activation I-Parameter O
+
+in O O
+
+BCs O O
+
+and O O
+
+PCs O O
+
+was O O
+
+similar O O
+
+. O O
+
+The O O
+
+slope B-Parameter O
+
+factors I-Parameter O
+
+of I-Parameter O
+
+the I-Parameter O
+
+activation I-Parameter O
+
+curves I-Parameter O
+
+, I-Parameter O
+
+fitted O O
+
+with O O
+
+Boltzmann O O
+
+functions O O
+
+raised O O
+
+to O O
+
+the O O
+
+third O O
+
+power O O
+
+, O O
+
+were O O
+
+11.5 O O
+
+and O O
+
+11.8 O O
+
+mV O O
+
+, O O
+
+and O O
+
+the O O
+
+mid B-Parameter O
+
+- I-Parameter O
+
+point I-Parameter O
+
+potentials I-Parameter O
+
+were O O
+
+-25.1 O O
+
+and O O
+
+-23.9 O O
+
+mV O O
+
+, O O
+
+respectively O O
+
+. O O
+
+3 O O
+
+. O O
+
+Whereas O O
+
+the O O
+
+time B-Parameter O
+
+course I-Parameter O
+
+of I-Parameter O
+
+Na+ I-Parameter O
+
+channel I-Parameter O
+
+activation I-Parameter O
+
+( O O
+
+-30 O O
+
+to O O
+
++ O O
+
+40 O O
+
+mV O O
+
+) O O
+
+was O O
+
+similar O O
+
+, O O
+
+the O O
+
+deactivation B-Parameter O
+
+kinetics I-Parameter O
+
+( O O
+
+-100 O O
+
+to O O
+
+-40 O O
+
+mV O O
+
+) O O
+
+were O O
+
+faster O O
+
+in O O
+
+BCs O O
+
+than O O
+
+in O O
+
+PCs O O
+
+( B-Parameter O
+
+tail I-Parameter O
+
+current I-Parameter O
+
+decay I-Parameter O
+
+time I-Parameter O
+
+constants I-Parameter O
+
+, I-Parameter O
+
+0.13 O O
+
+and O O
+
+0.20 O O
+
+ms O O
+
+, O O
+
+respectively O O
+
+, O O
+
+at O O
+
+-40 O O
+
+mV O O
+
+) O O
+
+. O O
+
+4 O O
+
+. O O
+
+Na+ O O
+
+channels O O
+
+in O O
+
+BCs O O
+
+and O O
+
+PCs O O
+
+differed O O
+
+in O O
+
+the O O
+
+voltage B-Parameter O
+
+dependence I-Parameter O
+
+of I-Parameter O
+
+inactivation I-Parameter O
+
+. I-Parameter O
+
+The O O
+
+slope B-Parameter O
+
+factors I-Parameter O
+
+of I-Parameter O
+
+the I-Parameter O
+
+steady I-Parameter O
+
+- I-Parameter O
+
+state I-Parameter O
+
+inactivation I-Parameter O
+
+curves I-Parameter O
+
+fitted O O
+
+with O O
+
+Boltzmann O O
+
+functions O O
+
+were O O
+
+6.7 O O
+
+and O O
+
+10.7 O O
+
+mV O O
+
+, O O
+
+and O O
+
+the O O
+
+mid B-Parameter O
+
+- I-Parameter O
+
+point I-Parameter O
+
+potentials I-Parameter O
+
+were O O
+
+-58.3 O O
+
+and O O
+
+-62.9 O O
+
+mV O O
+
+, O O
+
+respectively O O
+
+. O O
+
+5 O O
+
+. O O
+
+The O O
+
+onset O O
+
+of O O
+
+Na+ O O
+
+channel O O
+
+inactivation O O
+
+at O O
+
+-55 O O
+
+mV O O
+
+was O O
+
+slower O O
+
+in O O
+
+BCs O O
+
+than O O
+
+in O O
+
+PCs O O
+
+; O O
+
+the O O
+
+inactivation B-Parameter O
+
+time I-Parameter O
+
+constants I-Parameter O
+
+were O O
+
+18.6 O O
+
+and O O
+
+9.3 O O
+
+ms O O
+
+, O O
+
+respectively O O
+
+. O O
+
+At O O
+
+more O O
+
+positive O O
+
+potentials O O
+
+the O O
+
+differences O O
+
+in O O
+
+inactivation O O
+
+onset O O
+
+were O O
+
+smaller O O
+
+. O O
+
+6 O O
+
+. O O
+
+The O O
+
+time B-Parameter O
+
+course I-Parameter O
+
+of I-Parameter O
+
+recovery I-Parameter O
+
+of O O
+
+Na+ O O
+
+channels O O
+
+from O O
+
+inactivation O O
+
+induced O O
+
+by O O
+
+a O O
+
+30 O O
+
+ms O O
+
+pulse O O
+
+was O O
+
+fast O O
+
+and O O
+
+mono-exponential O O
+
+( B-Parameter O
+
+tau I-Parameter O
+
+= O O
+
+2.0 O O
+
+ms O O
+
+at O O
+
+-120 O O
+
+mV O O
+
+) O O
+
+in O O
+
+BCs O O
+
+, O O
+
+whereas O O
+
+it O O
+
+was O O
+
+slower O O
+
+and O O
+
+bi-exponential O O
+
+in O O
+
+PCs O O
+
+( B-Parameter O
+
+tau I-Parameter O
+
+1 I-Parameter O
+
+= O O
+
+2.0 O O
+
+ms O O
+
+and O O
+
+tau B-Parameter O
+
+2 I-Parameter O
+
+= O O
+
+133 O O
+
+ms O O
+
+; O O
+
+amplitude B-Parameter O
+
+contribution I-Parameter O
+
+of I-Parameter O
+
+the I-Parameter O
+
+slow I-Parameter O
+
+component I-Parameter O
+
+, I-Parameter O
+
+15% O O
+
+) O O
+
+. O O
+
+7 O O
+
+. O O
+
+We O O
+
+conclude O O
+
+that O O
+
+Na+ O O
+
+channels O O
+
+of O O
+
+BCs O O
+
+and O O
+
+PCs O O
+
+differ O O
+
+in O O
+
+gating O O
+
+properties O O
+
+that O O
+
+contribute O O
+
+to O O
+
+the O O
+
+characteristic O O
+
+action O O
+
+potential O O
+
+patterns O O
+
+of O O
+
+the O O
+
+two O O
+
+types O O
+
+of O O
+
+neurones O O
+
+. O O
+
+T O O
+
+- O O
+
+type O O
+
+calcium O O
+
+channels O O
+
+play O O
+
+a O O
+
+pivotal O O
+
+role O O
+
+in O O
+
+regulating O O
+
+neural O O
+
+membrane O O
+
+excitability O O
+
+in O O
+
+the O O
+
+nervous O O
+
+system O O
+
+. O O
+
+However O O
+
+, O O
+
+the O O
+
+precise O O
+
+subcellular O O
+
+distributions O O
+
+of O O
+
+T O O
+
+- O O
+
+type O O
+
+channel O O
+
+subunits O O
+
+and O O
+
+their O O
+
+implication O O
+
+for O O
+
+membrane O O
+
+excitability O O
+
+are O O
+
+not O O
+
+well O O
+
+understood O O
+
+. O O
+
+Here O O
+
+we O O
+
+investigated O O
+
+the O O
+
+subcellular O O
+
+distribution O O
+
+of O O
+
+the O O
+
+a1G O O
+
+subunit O O
+
+of O O
+
+the O O
+
+calcium O O
+
+channel O O
+
+which O O
+
+is O O
+
+expressed O O
+
+highly O O
+
+in O O
+
+the O O
+
+mouse O O
+
+dorsal O O
+
+lateral O O
+
+geniculate O O
+
+nucleus O O
+
+( O O
+
+dLGN O O
+
+) O O
+
+. O O
+
+Light O O
+
+microscopic O O
+
+analysis O O
+
+demonstrated O O
+
+that O O
+
+dLGN O O
+
+exhibits O O
+
+intense O O
+
+immunoperoxidase O O
+
+reactivity O O
+
+for O O
+
+the O O
+
+a1G O O
+
+subunit O O
+
+. O O
+
+Electron O O
+
+microscopic O O
+
+observation O O
+
+showed O O
+
+that O O
+
+the O O
+
+labeling O O
+
+was O O
+
+present O O
+
+in O O
+
+both O O
+
+the O O
+
+relay O O
+
+cells O O
+
+and O O
+
+interneurons O O
+
+and O O
+
+was O O
+
+found O O
+
+in O O
+
+the O O
+
+somatodendritic O O
+
+, O O
+
+but O O
+
+not O O
+
+axonal O O
+
+, O O
+
+domains O O
+
+of O O
+
+these O O
+
+cells O O
+
+. O O
+
+Most O O
+
+of O O
+
+the O O
+
+immunogold O O
+
+particles O O
+
+for O O
+
+the O O
+
+a1G O O
+
+subunit O O
+
+were O O
+
+either O O
+
+associated O O
+
+with O O
+
+the O O
+
+plasma O O
+
+membrane O O
+
+or O O
+
+the O O
+
+intracellular O O
+
+membranes O O
+
+. O O
+
+Reconstruction O O
+
+analysis O O
+
+of O O
+
+serial O O
+
+electron O O
+
+microscopic O O
+
+images O O
+
+revealed O O
+
+that O O
+
+the O O
+
+intensity O O
+
+of O O
+
+the O O
+
+intracellular O O
+
+labeling O O
+
+exhibited O O
+
+a O O
+
+gradient O O
+
+such O O
+
+that O O
+
+the O O
+
+labeling O O
+
+density O O
+
+was O O
+
+higher O O
+
+in O O
+
+the O O
+
+proximal O O
+
+dendrite O O
+
+and O O
+
+progressively O O
+
+decreased O O
+
+towards O O
+
+the O O
+
+distal O O
+
+dendrite O O
+
+. O O
+
+In O O
+
+contrast O O
+
+, O O
+
+the O O
+
+plasma O O
+
+membrane O O
+
+- O O
+
+associated O O
+
+particles O O
+
+were O O
+
+distributed O O
+
+with O O
+
+a O O
+
+uniform O O
+
+density O B-Parameter
+
+over O I-Parameter
+
+the O O
+
+somatodendritic O O
+
+surface O O
+
+of O O
+
+dLGN O O
+
+cells O O
+
+. O O
+
+The O O
+
+labeling O O
+
+density O O
+
+in O O
+
+the O O
+
+relay O O
+
+cell O O
+
+plasma O O
+
+membrane O O
+
+was O O
+
+about O O
+
+3-fold O O
+
+higher O O
+
+than O O
+
+that O O
+
+of O O
+
+the O O
+
+interneurons O O
+
+. O O
+
+These O O
+
+results O O
+
+provide O O
+
+ultrastructural O O
+
+evidence O O
+
+for O O
+
+cell O O
+
+- O O
+
+type O O
+
+- O O
+
+specific O O
+
+expression O O
+
+levels O O
+
+and O O
+
+for O O
+
+uniform O O
+
+expression O O
+
+density O O
+
+of O O
+
+the O O
+
+a1G O O
+
+subunit O O
+
+over O O
+
+the O O
+
+plasma O O
+
+membrane O O
+
+of O O
+
+dLGN O O
+
+cells O O
+
+. O O
+
+It O O
+
+is O O
+
+well O O
+
+established O O
+
+that O O
+
+the O O
+
+main O O
+
+intrinsic O O
+
+electrophysiological O O
+
+properties O O
+
+of O O
+
+thalamocortical O O
+
+relay O O
+
+cells O O
+
+, O O
+
+production O O
+
+of O O
+
+a O O
+
+low O O
+
+threshold O O
+
+burst O O
+
+upon O O
+
+release O O
+
+from O O
+
+hyperpolarized O O
+
+potential O O
+
+and O O
+
+production O O
+
+of O O
+
+a O O
+
+train O O
+
+of O O
+
+single O O
+
+spikes O O
+
+following O O
+
+stimulation O O
+
+from O O
+
+depolarized O O
+
+potentials O O
+
+, O O
+
+can O O
+
+be O O
+
+readily O O
+
+modelled O O
+
+using O O
+
+a O O
+
+single O O
+
+compartment O O
+
+. O O
+
+There O O
+
+is O O
+
+, O O
+
+however O O
+
+, O O
+
+another O O
+
+less O O
+
+well O O
+
+explored O O
+
+intrinsic O O
+
+electrophysiological O O
+
+characteristic O O
+
+of O O
+
+relay O O
+
+cells O O
+
+for O O
+
+which O O
+
+models O O
+
+have O O
+
+not O O
+
+yet O O
+
+accounted O O
+
+: O O
+
+at O O
+
+somatic O O
+
+potentials O O
+
+near O O
+
+spike O O
+
+threshold O O
+
+, O O
+
+relay O O
+
+cells O O
+
+produce O O
+
+a O O
+
+fast O O
+
+ragged O O
+
+high O O
+
+threshold O O
+
+oscillation O O
+
+in O O
+
+somatic O O
+
+voltage O O
+
+. O O
+
+Optical O O
+
+[ O O
+
+Ca2+ O O
+
+] O O
+
+imaging O O
+
+and O O
+
+pharmacological O O
+
+tests O O
+
+indicate O O
+
+that O O
+
+this O O
+
+oscillation O O
+
+correlates O O
+
+with O O
+
+a O O
+
+high O O
+
+threshold O O
+
+Ca2+ O O
+
+current O O
+
+in O O
+
+the O O
+
+dendrites O O
+
+. O O
+
+Here O O
+
+we O O
+
+present O O
+
+the O O
+
+development O O
+
+of O O
+
+a O O
+
+new O O
+
+compartment O O
+
+model O O
+
+of O O
+
+the O O
+
+thalamic O O
+
+relay O O
+
+cell O O
+
+guided O O
+
+by O O
+
+the O O
+
+simultaneous O O
+
+constraints O O
+
+that O O
+
+it O O
+
+must O O
+
+produce O O
+
+the O O
+
+familiar O O
+
+regular O O
+
+spiking O O
+
+relay O O
+
+mode O O
+
+and O O
+
+low O O
+
+threshold O O
+
+rebound O O
+
+bursts O O
+
+which O O
+
+characterize O O
+
+these O O
+
+cells O O
+
+, O O
+
+as O O
+
+well O O
+
+as O O
+
+the O O
+
+less O O
+
+- O O
+
+studied O O
+
+fast O O
+
+oscillation O O
+
+occurring O O
+
+at O O
+
+near O O
+
+- O O
+
+threshold O O
+
+somatic O O
+
+potentials O O
+
+. O O
+
+We O O
+
+arrive O O
+
+at O O
+
+a O O
+
+model O O
+
+cell O O
+
+which O O
+
+is O O
+
+capable O O
+
+of O O
+
+the O O
+
+production O O
+
+of O O
+
+isolated O O
+
+high O O
+
+threshold O O
+
+Ca2+ O O
+
+spikes O O
+
+in O O
+
+distal O O
+
+branch O O
+
+segments O O
+
+, O O
+
+driven O O
+
+by O O
+
+a O O
+
+rapidly O O
+
+inactivating O O
+
+intermediate O O
+
+threshold O O
+
+Ca2+ O O
+
+channel O O
+
+. O O
+
+Further O O
+
+, O O
+
+the O O
+
+model O O
+
+produces O O
+
+the O O
+
+low O O
+
+threshold O O
+
+spike O O
+
+behaviour O O
+
+of O O
+
+the O O
+
+relay O O
+
+cell O O
+
+without O O
+
+requiring O O
+
+high B-Parameter O
+
+T-current B-Parameter O
+
+density I-Parameter O
+
+in O O
+
+the O O
+
+distal O O
+
+dendritic O O
+
+segments O O
+
+. O O
+
+The O O
+
+results O O
+
+thus O O
+
+support O O
+
+a O O
+
+new O O
+
+picture O O
+
+of O O
+
+the O O
+
+dendritic O O
+
+tree O O
+
+of O O
+
+relay O O
+
+cells O O
+
+which O O
+
+may O O
+
+have O O
+
+implications O O
+
+for O O
+
+the O O
+
+manner O O
+
+in O O
+
+which O O
+
+thalamic O O
+
+relay O O
+
+cells O O
+
+integrate O O
+
+descending O O
+
+input O O
+
+from O O
+
+the O O
+
+cortex O O
+
+. O O
+
+The O O
+
+rostral O O
+
+sector O O
+
+of O O
+
+the O O
+
+posterior O O
+
+thalamic O O
+
+nuclei O O
+
+( O O
+
+POm O O
+
+) O O
+
+is O O
+
+, O O
+
+together O O
+
+with O O
+
+the O O
+
+ventral O O
+
+posterior O O
+
+nuclei O O
+
+( O O
+
+VP O O
+
+) O O
+
+, O O
+
+involved O O
+
+in O O
+
+somatosensory O O
+
+information O O
+
+processing O O
+
+in O O
+
+rodents O O
+
+. O O
+
+The O O
+
+POm O O
+
+receives O O
+
+inputs O O
+
+from O O
+
+the O O
+
+spinal O O
+
+cord O O
+
+and O O
+
+trigeminal O O
+
+nuclei O O
+
+and O O
+
+projects O O
+
+to O O
+
+the O O
+
+primary O O
+
+somatosensory O O
+
+( O O
+
+S1 O O
+
+) O O
+
+cortex O O
+
+and O O
+
+other O O
+
+cortical O O
+
+areas O O
+
+. O O
+
+Although O O
+
+thalamocortical O O
+
+axons O O
+
+of O O
+
+single O O
+
+VP O O
+
+neurons O O
+
+are O O
+
+well O O
+
+known O O
+
+to O O
+
+innervate O O
+
+layer O O
+
+( O O
+
+L O O
+
+) O O
+
+4 O O
+
+of O O
+
+the O O
+
+S1 O O
+
+cortex O O
+
+with O O
+
+distinct O O
+
+columnar O O
+
+organization O O
+
+, O O
+
+those O O
+
+of O O
+
+POm O O
+
+neurons O O
+
+have O O
+
+not O O
+
+been O O
+
+elucidated O O
+
+yet O O
+
+. O O
+
+In O O
+
+the O O
+
+present O O
+
+study O O
+
+, O O
+
+we O O
+
+investigated O O
+
+complete O O
+
+axonal O O
+
+and O O
+
+dendritic O O
+
+arborizations O O
+
+of O O
+
+single O O
+
+POm O O
+
+neurons O O
+
+in O O
+
+rats O O
+
+by O O
+
+visualizing O O
+
+the O O
+
+processes O O
+
+with O O
+
+Sindbis O O
+
+viruses O O
+
+expressing O O
+
+membrane O O
+
+- O O
+
+targeted O O
+
+fluorescent O O
+
+protein O O
+
+. O O
+
+When O O
+
+we O O
+
+divided O O
+
+the O O
+
+POm O O
+
+into O O
+
+anterior O O
+
+and O O
+
+posterior O O
+
+parts O O
+
+according O O
+
+to O O
+
+calbindin O O
+
+immunoreactivity O O
+
+, O O
+
+dendrites O O
+
+of O O
+
+posterior O O
+
+POm O O
+
+neurons O O
+
+were O O
+
+wider O O
+
+but O O
+
+less O O
+
+numerous O O
+
+than O O
+
+those O O
+
+of O O
+
+anterior O O
+
+neurons O O
+
+. O O
+
+More O O
+
+interestingly O O
+
+, O O
+
+axon O O
+
+fibers O O
+
+of O O
+
+anterior O O
+
+POm O O
+
+neurons O O
+
+were O O
+
+preferentially O O
+
+distributed O O
+
+in O O
+
+L5 O O
+
+of O O
+
+the O O
+
+S1 O O
+
+cortex O O
+
+, O O
+
+whereas O O
+
+those O O
+
+of O O
+
+posterior O O
+
+neurons O O
+
+were O O
+
+principally O O
+
+spread O O
+
+in O O
+
+L1 O O
+
+with O O
+
+wider O O
+
+and O O
+
+sparser O O
+
+arborization O O
+
+than O O
+
+those O O
+
+of O O
+
+anterior O O
+
+neurons O O
+
+. O O
+
+These O O
+
+results O O
+
+suggest O O
+
+that O O
+
+the O O
+
+POm O O
+
+is O O
+
+functionally O O
+
+segregated O O
+
+into O O
+
+anterior O O
+
+and O O
+
+posterior O O
+
+parts O O
+
+and O O
+
+that O O
+
+the O O
+
+2 O O
+
+parts O O
+
+may O O
+
+play O O
+
+different O O
+
+roles O O
+
+in O O
+
+somatosensory O O
+
+information O O
+
+processing O O
+
+. O O
+
+The O O
+
+low O O
+
+- O O
+
+threshold O O
+
+calcium O O
+
+current O O
+
+( O O
+
+IT O O
+
+) O O
+
+underlies O O
+
+burst O O
+
+generation O O
+
+in O O
+
+thalamocortical O O
+
+( O O
+
+TC O O
+
+) O O
+
+relay O O
+
+cells O O
+
+and O O
+
+plays O O
+
+a O O
+
+central O O
+
+role O O
+
+in O O
+
+the O O
+
+genesis O O
+
+of O O
+
+synchronized O O
+
+oscillations O O
+
+by O O
+
+thalamic O O
+
+circuits O O
+
+. O O
+
+Here O O
+
+we O O
+
+have O O
+
+combined O O
+
+in O O
+
+vitro O O
+
+recordings O O
+
+and O O
+
+computational O O
+
+modeling O O
+
+techniques O O
+
+to O O
+
+investigate O O
+
+the O O
+
+consequences O O
+
+of O O
+
+dendritically O O
+
+located O O
+
+IT O O
+
+in O O
+
+TC O O
+
+cells O O
+
+. O O
+
+Simulations O O
+
+of O O
+
+a O O
+
+reconstructed O O
+
+TC O O
+
+cell O O
+
+were O O
+
+compared O O
+
+with O O
+
+the O O
+
+recordings O O
+
+obtained O O
+
+in O O
+
+the O O
+
+same O O
+
+cell O O
+
+to O O
+
+constrain O O
+
+the O O
+
+values O O
+
+of O O
+
+its O O
+
+passive O O
+
+parameters O O
+
+. O O
+
+T-current B-Parameter O
+
+densities I-Parameter O
+
+in O O
+
+soma O O
+
+and O O
+
+proximal O O
+
+dendrites O O
+
+were O O
+
+then O O
+
+estimated O O
+
+by O O
+
+matching O O
+
+the O O
+
+model O O
+
+to O O
+
+voltage O O
+
+- O O
+
+clamp O O
+
+recordings O O
+
+obtained O O
+
+in O O
+
+dissociated O O
+
+TC O O
+
+cells O O
+
+, O O
+
+which O O
+
+lack O O
+
+most O O
+
+of O O
+
+the O O
+
+dendrites O O
+
+. O O
+
+The O O
+
+distal O O
+
+dendritic O O
+
+T-current B-Parameter O
+
+density I-Parameter O
+
+was O O
+
+constrained O O
+
+by O O
+
+recordings O O
+
+in O O
+
+intact O O
+
+TC O O
+
+cells O O
+
+, O O
+
+which O O
+
+show O O
+
+5-14 O O
+
+times O O
+
+larger O O
+
+peak B-Parameter O
+
+T-current B-Parameter O
+
+amplitudes I-Parameter O
+
+compared O O
+
+with O O
+
+dissociated O O
+
+cells O O
+
+. O O
+
+Comparison O O
+
+of O O
+
+the O O
+
+model O O
+
+with O O
+
+the O O
+
+recordings O O
+
+of O O
+
+the O O
+
+same O O
+
+cell O O
+
+constrained O O
+
+further O O
+
+the O O
+
+T-current B-Parameter O
+
+density I-Parameter O
+
+in O O
+
+dendrites O O
+
+, O O
+
+which O O
+
+had O O
+
+to O O
+
+be O O
+
+4.5-7.6 O O
+
+times O O
+
+higher O O
+
+than O O
+
+in O O
+
+the O O
+
+soma O O
+
+to O O
+
+reproduce O O
+
+all O O
+
+experimental O O
+
+results O O
+
+. O O
+
+Similar O O
+
+conclusions O O
+
+were O O
+
+reached O O
+
+using O O
+
+a O O
+
+simplified O O
+
+three O O
+
+- O O
+
+compartment O O
+
+model O O
+
+. O O
+
+Functionally O O
+
+, O O
+
+the O O
+
+model O O
+
+shows O O
+
+that O O
+
+the O O
+
+same O O
+
+amount O O
+
+of O O
+
+T-channels O O
+
+can O O
+
+lead O O
+
+to O O
+
+different O O
+
+bursting O O
+
+behaviors O O
+
+if O O
+
+they O O
+
+are O O
+
+exclusively O O
+
+somatic O O
+
+or O O
+
+distributed O O
+
+throughout O O
+
+the O O
+
+dendrites O O
+
+. O O
+
+In O O
+
+conclusion O O
+
+, O O
+
+this O O
+
+combination O O
+
+of O O
+
+models O O
+
+and O O
+
+experiments O O
+
+shows O O
+
+that O O
+
+dendritic O O
+
+T-currents O O
+
+are O O
+
+necessary O O
+
+to O O
+
+reproduce O O
+
+low O O
+
+- O O
+
+threshold O O
+
+calcium O O
+
+electrogenesis O O
+
+in O O
+
+TC O O
+
+cells O O
+
+. O O
+
+Dendritic O O
+
+T-current O O
+
+may O O
+
+also O O
+
+have O O
+
+significant O O
+
+functional O O
+
+consequences O O
+
+, O O
+
+such O O
+
+as O O
+
+an O O
+
+efficient O O
+
+modulation O O
+
+of O O
+
+thalamic O O
+
+burst O O
+
+discharges O O
+
+by O O
+
+corticothalamic O O
+
+feedback O O
+
+. O O
+
+The O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+( O O
+
+TRN O O
+
+) O O
+
+is O O
+
+a O O
+
+shell O O
+
+of O O
+
+GABAergic O O
+
+neurons O O
+
+that O O
+
+surrounds O O
+
+the O O
+
+dorsal O O
+
+thalamus O O
+
+. O O
+
+Previous O O
+
+work O O
+
+has O O
+
+shown O O
+
+that O O
+
+TRN O O
+
+neurons O O
+
+send O O
+
+GABAergic O O
+
+projections O O
+
+to O O
+
+thalamocortical O O
+
+( O O
+
+TC O O
+
+) O O
+
+cells O O
+
+to O O
+
+form O O
+
+reciprocal O O
+
+, O O
+
+closed O O
+
+- O O
+
+loop O O
+
+circuits O O
+
+. O O
+
+This O O
+
+has O O
+
+led O O
+
+to O O
+
+the O O
+
+hypothesis O O
+
+that O O
+
+the O O
+
+TRN O O
+
+is O O
+
+responsible O O
+
+for O O
+
+oscillatory O O
+
+phenomena O O
+
+, O O
+
+such O O
+
+as O O
+
+sleep O O
+
+spindles O O
+
+and O O
+
+absence O O
+
+seizures O O
+
+. O O
+
+However O O
+
+, O O
+
+there O O
+
+is O O
+
+emerging O O
+
+evidence O O
+
+that O O
+
+open O O
+
+- O O
+
+loop O O
+
+circuits O O
+
+are O O
+
+also O O
+
+found O O
+
+between O O
+
+TRN O O
+
+and O O
+
+TC O O
+
+cells O O
+
+. O O
+
+The O O
+
+implications O O
+
+of O O
+
+open O O
+
+- O O
+
+loop O O
+
+configurations O O
+
+are O O
+
+not O O
+
+yet O O
+
+known O O
+
+, O O
+
+particularly O O
+
+when O O
+
+they O O
+
+include O O
+
+time O O
+
+- O O
+
+dependent O O
+
+nonlinearities O O
+
+in O O
+
+TC O O
+
+cells O O
+
+such O O
+
+as O O
+
+low O O
+
+- O O
+
+threshold O O
+
+bursting O O
+
+. O O
+
+We O O
+
+hypothesized O O
+
+that O O
+
+low O O
+
+- O O
+
+threshold O O
+
+bursting O O
+
+in O O
+
+an O O
+
+open O O
+
+- O O
+
+loop O O
+
+circuit O O
+
+could O O
+
+be O O
+
+a O O
+
+mechanism O O
+
+by O O
+
+which O O
+
+the O O
+
+TRN O O
+
+could O O
+
+paradoxically O O
+
+enhance O O
+
+TC O O
+
+activation O O
+
+, O O
+
+and O O
+
+that O O
+
+enhancement O O
+
+would O O
+
+depend O O
+
+on O O
+
+the O O
+
+relative O O
+
+timing O O
+
+of O O
+
+TRN O O
+
+vs O O
+
+. O O
+
+TC O O
+
+cell O O
+
+stimulation O O
+
+. O O
+
+To O O
+
+test O O
+
+this O O
+
+, O O
+
+we O O
+
+modeled O O
+
+small O O
+
+circuits O O
+
+containing O O
+
+TC O O
+
+neurons O O
+
+, O O
+
+TRN O O
+
+neurons O O
+
+, O O
+
+and O O
+
+layer O O
+
+4 O O
+
+thalamorecipient O O
+
+cells O O
+
+in O O
+
+both O O
+
+open O O
+
+- O O
+
+and O O
+
+closed O O
+
+- O O
+
+loop O O
+
+configurations O O
+
+. O O
+
+We O O
+
+found O O
+
+that O O
+
+open O O
+
+- O O
+
+loop O O
+
+TRN O O
+
+stimulation O O
+
+, O O
+
+rather O O
+
+than O O
+
+universally O O
+
+depressing O O
+
+TC O O
+
+activation O O
+
+, O O
+
+increased O O
+
+cortical O O
+
+output O O
+
+across O O
+
+a O O
+
+broad O O
+
+parameter O O
+
+space O O
+
+, O O
+
+modified O O
+
+the O O
+
+filter O O
+
+properties O O
+
+of O O
+
+TC O O
+
+neurons O O
+
+, O O
+
+and O O
+
+altered O O
+
+the O O
+
+mutual O O
+
+information O O
+
+between O O
+
+input O O
+
+and O O
+
+output O O
+
+in O O
+
+a O O
+
+frequency O O
+
+- O O
+
+dependent O O
+
+and O O
+
+T O O
+
+- O O
+
+type O O
+
+calcium O O
+
+channel O O
+
+- O O
+
+dependent O O
+
+manner O O
+
+. O O
+
+Therefore O O
+
+, O O
+
+an O O
+
+open O O
+
+- O O
+
+loop O O
+
+model O O
+
+of O O
+
+<UNK> O O
+
+interactions O O
+
+, O O
+
+rather O O
+
+than O O
+
+suppressing O O
+
+transmission O O
+
+through O O
+
+the O O
+
+thalamus O O
+
+, O O
+
+creates O O
+
+a O O
+
+tunable O O
+
+filter O O
+
+whose O O
+
+properties O O
+
+may O O
+
+be O O
+
+modified O O
+
+by O O
+
+outside O O
+
+influences O O
+
+onto O O
+
+the O O
+
+TRN O O
+
+. O O
+
+These O O
+
+simulations O O
+
+make O O
+
+experimentally O O
+
+testable O O
+
+predictions O O
+
+about O O
+
+the O O
+
+potential O O
+
+role O O
+
+for O O
+
+the O O
+
+TRN O O
+
+for O O
+
+flexible O O
+
+enhancement O O
+
+of O O
+
+cortical O O
+
+activation O O
+
+. O O
+
+Neurones O O
+
+enzymatically O O
+
+dissociated O O
+
+from O O
+
+the O O
+
+rat O O
+
+dorsal O O
+
+lateral O O
+
+geniculate O O
+
+nucleus O O
+
+( O O
+
+LGN O O
+
+) O O
+
+were O O
+
+identified O O
+
+as O O
+
+GABAergic O O
+
+local O O
+
+circuit O O
+
+interneurones O O
+
+and O O
+
+geniculocortical O O
+
+relay O O
+
+cells O O
+
+, O O
+
+based O O
+
+upon O O
+
+quantitative O O
+
+analysis O O
+
+of O O
+
+soma O O
+
+profiles O O
+
+, O O
+
+immunohistochemical O O
+
+detection O O
+
+of O O
+
+GABA O O
+
+or O O
+
+glutamic O O
+
+acid O O
+
+decarboxylase O O
+
+, O O
+
+and O O
+
+basic O O
+
+electrogenic O O
+
+behaviour O O
+
+. O O
+
+2 O O
+
+. O O
+
+During O O
+
+whole O O
+
+- O O
+
+cell O O
+
+current O O
+
+- O O
+
+clamp O O
+
+recording O O
+
+, O O
+
+isolated O O
+
+LGN O O
+
+neurones O O
+
+generated O O
+
+firing O O
+
+patterns O O
+
+resembling O O
+
+those O O
+
+in O O
+
+intact O O
+
+tissue O O
+
+, O O
+
+with O O
+
+the O O
+
+most O O
+
+striking O O
+
+difference O O
+
+relating O O
+
+to O O
+
+the O O
+
+presence O O
+
+in O O
+
+relay O O
+
+cells O O
+
+of O O
+
+a O O
+
+Ca2+ O O
+
+action O O
+
+potential O O
+
+with O O
+
+a O O
+
+low O O
+
+threshold O O
+
+of O O
+
+activation O O
+
+, O O
+
+capable O O
+
+of O O
+
+triggering O O
+
+fast O O
+
+spikes O O
+
+, O O
+
+and O O
+
+the O O
+
+absence O O
+
+of O O
+
+a O O
+
+regenerative O O
+
+Ca2+ O O
+
+response O O
+
+with O O
+
+a O O
+
+low O O
+
+threshold O O
+
+of O O
+
+activation O O
+
+in O O
+
+local O O
+
+circuit O O
+
+cells O O
+
+. O O
+
+3 O O
+
+. O O
+
+Whole O O
+
+- O O
+
+cell O O
+
+voltage O O
+
+- O O
+
+clamp O O
+
+experiments O O
+
+demonstrated O O
+
+that O O
+
+both O O
+
+classes O O
+
+of O O
+
+LGN O O
+
+neurones O O
+
+possess O O
+
+at O O
+
+least O O
+
+two O O
+
+voltage O O
+
+- O O
+
+dependent O O
+
+membrane O O
+
+currents O O
+
+which O O
+
+operate O O
+
+in O O
+
+a O O
+
+range O O
+
+of O O
+
+membrane O B-Parameter
+
+potentials O I-Parameter
+
+negative O O
+
+to O O
+
+the O O
+
+threshold O O
+
+for O O
+
+generation O O
+
+of O O
+
+<UNK> O O
+
+- O O
+
+mediated O O
+
+spikes O O
+
+: O O
+
+the O O
+
+T O O
+
+- O O
+
+type O O
+
+Ca2+ O O
+
+current O O
+
+( O O
+
+IT O O
+
+) O O
+
+and O O
+
+an O O
+
+A O O
+
+- O O
+
+type O O
+
+K+ O O
+
+current O O
+
+( O O
+
+IA O O
+
+) O O
+
+. O O
+
+Taking O O
+
+into O O
+
+account O O
+
+the O O
+
+differences O O
+
+in O O
+
+membrane B-Parameter O
+
+surface I-Parameter O
+
+area I-Parameter O
+
+, I-Parameter O
+
+the O O
+
+average O O
+
+size O O
+
+of O O
+
+IT O O
+
+was O O
+
+similar O O
+
+in O O
+
+the O O
+
+two O O
+
+types O O
+
+of O O
+
+neurones O O
+
+, O O
+
+and O O
+
+interneurones O O
+
+possessed O O
+
+a O O
+
+slightly O O
+
+larger O O
+
+<UNK> B-Parameter O
+
+. I-Parameter O
+
+4 O O
+
+. O O
+
+In O O
+
+local O O
+
+circuit O O
+
+neurones O O
+
+, O O
+
+the O O
+
+ranges O O
+
+of O O
+
+steady B-Parameter O
+
+- B-Parameter O
+
+state B-Parameter O
+
+inactivation B-Parameter O
+
+and O O
+
+activation O O
+
+of O O
+
+IT O O
+
+and O O
+
+IA O O
+
+were O O
+
+largely O O
+
+overlapping O O
+
+( B-Parameter O
+
+VH I-Parameter O
+
+= O O
+
+81.1 O O
+
+vs O O
+
+. O O
+
+-82.8 O O
+
+mV O O
+
+) O O
+
+, O O
+
+both O O
+
+currents O O
+
+activated O O
+
+at O O
+
+around O O
+
+-70 O O
+
+mV O O
+
+, O O
+
+and O O
+
+they O O
+
+rapidly O O
+
+increased O O
+
+in O O
+
+amplitude O O
+
+with O O
+
+further O O
+
+depolarization O O
+
+. O O
+
+In O O
+
+relay O O
+
+cells O O
+
+, O O
+
+the O O
+
+inactivation B-Parameter O
+
+curve I-Parameter O
+
+of O O
+
+IT O O
+
+was O O
+
+negatively O O
+
+shifted O O
+
+along O O
+
+the O O
+
+voltage O O
+
+axis O O
+
+by O O
+
+about O O
+
+20 O O
+
+mV O O
+
+compared O O
+
+with O O
+
+that O O
+
+of O O
+
+IA O O
+
+( B-Parameter O
+
+Vh I-Parameter O
+
+= O O
+
+-86.1 O O
+
+vs O O
+
+. O O
+
+-69.2 O O
+
+mV O O
+
+) O O
+
+, O O
+
+and O O
+
+the O O
+
+activation B-Parameter O
+
+threshold I-Parameter O
+
+for O O
+
+IT O O
+
+( O O
+
+at O O
+
+-80 O O
+
+mV O O
+
+) O O
+
+was O O
+
+20 O O
+
+mV O O
+
+more O O
+
+negative O O
+
+than O O
+
+that O O
+
+for O O
+
+IA O O
+
+. O O
+
+In O O
+
+interneurones O O
+
+, O O
+
+the O O
+
+activation O O
+
+range O O
+
+of O O
+
+IT O O
+
+was O O
+
+shifted O O
+
+to O O
+
+values O O
+
+more O O
+
+positive O O
+
+than O O
+
+that O O
+
+in O O
+
+relay O O
+
+cells O O
+
+( B-Parameter O
+
+Vh I-Parameter O
+
+= O O
+
+-54.9 O O
+
+vs O O
+
+. O O
+
+-64.5 O O
+
+mV O O
+
+) O O
+
+, O O
+
+whereas O O
+
+the O O
+
+activation B-Parameter O
+
+range I-Parameter O
+
+of O O
+
+IA O O
+
+was O O
+
+more O O
+
+negative O O
+
+( B-Parameter O
+
+Vh I-Parameter O
+
+= O O
+
+-25.2 O O
+
+vs O O
+
+. O O
+
+-14.5 O O
+
+mV O O
+
+) O O
+
+. O O
+
+5 O O
+
+. O O
+
+Under O O
+
+whole O O
+
+- O O
+
+cell O O
+
+voltage O O
+
+- O O
+
+clamp O O
+
+conditions O O
+
+that O O
+
+allowed O O
+
+the O O
+
+combined O O
+
+activation O O
+
+of O O
+
+Ca2+ O O
+
+and O O
+
+K+ O O
+
+currents O O
+
+, O O
+
+depolarizing O O
+
+voltage O O
+
+steps O O
+
+from O O
+
+-110 O O
+
+mV O O
+
+evoked O O
+
+inward O O
+
+currents O O
+
+resembling O O
+
+IT O O
+
+in O O
+
+relay O O
+
+cells O O
+
+and O O
+
+small O O
+
+outward O O
+
+currents O O
+
+indicative O O
+
+of O O
+
+IA O O
+
+in O O
+
+local O O
+
+circuit O O
+
+neurones O O
+
+. O O
+
+After O O
+
+blockade O O
+
+of O O
+
+IA O O
+
+with O O
+
+4-aminopyridine O O
+
+( O O
+
+4-AP O O
+
+) O O
+
+, O O
+
+the O O
+
+same O O
+
+pulse O O
+
+protocol O O
+
+produced O O
+
+IT O O
+
+in O O
+
+both O O
+
+types O O
+
+of O O
+
+neurones O O
+
+. O O
+
+Under O O
+
+current O O
+
+clamp O O
+
+, O O
+
+4-AP O O
+
+unmasked O O
+
+a O O
+
+regenerative O O
+
+membrane O O
+
+depolarization O O
+
+with O O
+
+a O O
+
+low O O
+
+threshold O O
+
+of O O
+
+activation O O
+
+capable O O
+
+of O O
+
+triggering O O
+
+fast O O
+
+spikes O O
+
+in O O
+
+local O O
+
+circuit O O
+
+<UNK> O O
+
+TRUNCATED O O
+
+AT O O
+
+400 O O
+
+WORDS O O
+
+) O O
+
+Low O O
+
+- O O
+
+threshold O O
+
+Ca2+ O O
+
+spikes O O
+
+( O O
+
+LTS O O
+
+) O O
+
+are O O
+
+an O O
+
+indispensible O O
+
+signaling O O
+
+mechanism O O
+
+for O O
+
+neurons O O
+
+in O O
+
+areas O O
+
+including O O
+
+the O O
+
+cortex O O
+
+, O O
+
+cerebellum O O
+
+, O O
+
+basal O O
+
+ganglia O O
+
+, O O
+
+and O O
+
+thalamus O O
+
+. O O
+
+They O O
+
+have O O
+
+critical O O
+
+physiological O O
+
+roles O O
+
+and O O
+
+have O O
+
+been O O
+
+strongly O O
+
+associated O O
+
+with O O
+
+disorders O O
+
+including O O
+
+epilepsy O O
+
+, O O
+
+<UNK> O O
+
+disease O O
+
+, O O
+
+and O O
+
+schizophrenia O O
+
+. O O
+
+However O O
+
+, O O
+
+although O O
+
+dendritic O O
+
+T O O
+
+- O O
+
+type O O
+
+Ca2+ O O
+
+channels O O
+
+have O O
+
+been O O
+
+implicated O O
+
+in O O
+
+LTS O O
+
+generation O O
+
+, O O
+
+because O O
+
+the O O
+
+properties O O
+
+of O O
+
+low O O
+
+- O O
+
+threshold O O
+
+spiking O O
+
+neuron O O
+
+dendrites O O
+
+are O O
+
+unknown O O
+
+, O O
+
+the O O
+
+precise O O
+
+mechanism O O
+
+has O O
+
+remained O O
+
+elusive O O
+
+. O O
+
+Here O O
+
+, O O
+
+combining O O
+
+data O O
+
+from O O
+
+fluorescence O O
+
+- O O
+
+targeted O O
+
+dendritic O O
+
+recordings O O
+
+and O O
+
+Ca2+ O O
+
+imaging O O
+
+from O O
+
+low O O
+
+- O O
+
+threshold O O
+
+spiking O O
+
+cells O O
+
+in O O
+
+rat O O
+
+brain O O
+
+slices O O
+
+with O O
+
+computational O O
+
+modeling O O
+
+, O O
+
+the O O
+
+cellular O O
+
+mechanism O O
+
+responsible O O
+
+for O O
+
+LTS O O
+
+generation O O
+
+is O O
+
+established O O
+
+. O O
+
+Our O O
+
+data O O
+
+demonstrate O O
+
+that O O
+
+key O O
+
+somatodendritic O O
+
+electrical O O
+
+conduction O O
+
+properties O O
+
+are O O
+
+highly O O
+
+conserved O O
+
+between O O
+
+glutamatergic O O
+
+thalamocortical O O
+
+neurons O O
+
+and O O
+
+GABAergic O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+neurons O O
+
+and O O
+
+that O O
+
+these O O
+
+properties O O
+
+are O O
+
+critical O O
+
+for O O
+
+LTS O O
+
+generation O O
+
+. O O
+
+In O O
+
+particular O O
+
+, O O
+
+the O O
+
+efficiency O O
+
+of O O
+
+soma O O
+
+to O O
+
+dendrite O O
+
+voltage O O
+
+transfer O O
+
+is O O
+
+highly O O
+
+asymmetric O O
+
+in O O
+
+low O O
+
+- O O
+
+threshold O O
+
+spiking O O
+
+cells O O
+
+, O O
+
+and O O
+
+in O O
+
+the O O
+
+somatofugal O O
+
+direction O O
+
+, O O
+
+these O O
+
+neurons O O
+
+are O O
+
+particularly O O
+
+electrotonically O O
+
+compact O O
+
+. O O
+
+Our O O
+
+data O O
+
+demonstrate O O
+
+that O O
+
+LTS O O
+
+have O O
+
+remarkably O O
+
+similar O O
+
+amplitudes O O
+
+and O O
+
+occur O O
+
+synchronously O O
+
+throughout O O
+
+the O O
+
+dendritic O O
+
+tree O O
+
+. O O
+
+In O O
+
+fact O O
+
+, O O
+
+these O O
+
+Ca2+ O O
+
+spikes O O
+
+cannot O O
+
+occur O O
+
+locally O O
+
+in O O
+
+any O O
+
+part O O
+
+of O O
+
+the O O
+
+cell O O
+
+, O O
+
+and O O
+
+hence O O
+
+we O O
+
+reveal O O
+
+that O O
+
+LTS O O
+
+are O O
+
+generated O O
+
+by O O
+
+a O O
+
+unique O O
+
+whole O O
+
+- O O
+
+cell O O
+
+mechanism O O
+
+that O O
+
+means O O
+
+they O O
+
+always O O
+
+occur O O
+
+as O O
+
+spatially O O
+
+global O O
+
+spikes O O
+
+. O O
+
+This O O
+
+all O O
+
+- O O
+
+or O O
+
+- O O
+
+none O O
+
+, O O
+
+global O O
+
+electrical O O
+
+and O O
+
+biochemical O O
+
+signaling O O
+
+mechanism O O
+
+clearly O O
+
+distinguishes O O
+
+LTS O O
+
+from O O
+
+other O O
+
+signals O O
+
+, O O
+
+including O O
+
+backpropagating O O
+
+action O O
+
+potentials O O
+
+and O O
+
+dendritic O O
+
+Ca2+ O O
+
+/ O O
+
+NMDA O O
+
+spikes O O
+
+, O O
+
+and O O
+
+has O O
+
+important O O
+
+consequences O O
+
+for O O
+
+dendritic O O
+
+function O O
+
+in O O
+
+low O O
+
+- O O
+
+threshold O O
+
+spiking O O
+
+neurons O O
+
+. O O
+
+A O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+contributes O O
+
+to O O
+
+the O O
+
+membrane O O
+
+properties O O
+
+of O O
+
+a O O
+
+variety O O
+
+of O O
+
+cell O O
+
+types O O
+
+. O O
+
+In O O
+
+the O O
+
+thalamus O O
+
+, O O
+
+a O O
+
+prominent O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+exists O O
+
+in O O
+
+thalamocortical O O
+
+cells O O
+
+, O O
+
+and O O
+
+this O O
+
+current O O
+
+is O O
+
+implicated O O
+
+in O O
+
+the O O
+
+neuromodulation O O
+
+of O O
+
+complex O O
+
+firing O O
+
+behaviors O O
+
+. O O
+
+In O O
+
+contrast O O
+
+, O O
+
+the O O
+
+GABAergic O O
+
+cells O O
+
+in O O
+
+the O O
+
+reticular O O
+
+nucleus O O
+
+in O O
+
+the O O
+
+thalamus O O
+
+appear O O
+
+to O O
+
+lack O O
+
+this O O
+
+conductance O O
+
+. O O
+
+The O O
+
+presence O O
+
+and O O
+
+role O O
+
+of O O
+
+this O O
+
+cation O O
+
+conductance O O
+
+in O O
+
+the O O
+
+other O O
+
+type O O
+
+of O O
+
+thalamic O O
+
+GABAergic O O
+
+cells O O
+
+, O O
+
+local O O
+
+interneurons O O
+
+, O O
+
+is O O
+
+still O O
+
+unclear O O
+
+. O O
+
+To O O
+
+resolve O O
+
+this O O
+
+issue O O
+
+, O O
+
+we O O
+
+studied O O
+
+54 O O
+
+physiologically O O
+
+and O O
+
+morphologically O O
+
+identified O O
+
+local O O
+
+interneurons O O
+
+in O O
+
+the O O
+
+rat O O
+
+dorsal O O
+
+lateral O O
+
+geniculate O O
+
+nucleus O O
+
+using O O
+
+an O O
+
+in O O
+
+vitro O O
+
+whole O O
+
+- O O
+
+cell O O
+
+patch O O
+
+recording O O
+
+technique O O
+
+. O O
+
+We O O
+
+found O O
+
+that O O
+
+hyperpolarizing O O
+
+current O O
+
+injections O O
+
+induced O O
+
+depolarizing O O
+
+voltage O O
+
+sags O O
+
+in O O
+
+these O O
+
+geniculate O O
+
+interneurons O O
+
+. O O
+
+The O O
+
+I-V O O
+
+relationship O O
+
+revealed O O
+
+an O O
+
+inward O O
+
+rectification O O
+
+. O O
+
+Voltage O O
+
+- O O
+
+clamp O O
+
+study O O
+
+indicated O O
+
+that O O
+
+a O O
+
+slow O O
+
+, O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+was O O
+
+responsible O O
+
+for O O
+
+the O O
+
+inward O O
+
+rectification O O
+
+. O O
+
+We O O
+
+then O O
+
+confirmed O O
+
+that O O
+
+this O O
+
+slow O O
+
+conductance O O
+
+had O O
+
+properties O O
+
+of O O
+
+the O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+described O O
+
+in O O
+
+other O O
+
+cell O O
+
+types O O
+
+. O O
+
+The O O
+
+slow O B-Parameter
+
+conductance O I-Parameter
+
+was O O
+
+insensitive O O
+
+to O O
+
+10 O O
+
+mM O O
+
+tetraethylammonium O O
+
+and O O
+
+0.5 O O
+
+mM O O
+
+4-aminopyridine O O
+
+, O O
+
+but O O
+
+was O O
+
+largely O O
+
+blocked O O
+
+by O O
+
+1-1.5 O O
+
+mM O O
+
+Cs+ O O
+
+. O O
+
+It O O
+
+was O O
+
+permeable O O
+
+to O O
+
+both O O
+
+K+ O O
+
+and O O
+
+Na+ O O
+
+ions O O
+
+and O O
+
+had O O
+
+a O O
+
+reversal B-Parameter B-Parameter
+
+potential I-Parameter I-Parameter
+
+of O O
+
+-44 O O
+
+mV O O
+
+. O O
+
+The O O
+
+voltage O O
+
+dependence O O
+
+of O O
+
+the O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+in O O
+
+interneurons O O
+
+was O O
+
+also O O
+
+studied O O
+
+: O O
+
+the O O
+
+activation B-Parameter O
+
+threshold I-Parameter O
+
+was O O
+
+about O O
+
+-55 O O
+
+mV O O
+
+, O O
+
+half B-Parameter O
+
+- I-Parameter O
+
+activation I-Parameter O
+
+potential I-Parameter O
+
+was O O
+
+about O O
+
+-80 O O
+
+mV O O
+
+and O O
+
+maximal B-Parameter O
+
+conductance I-Parameter O
+
+was O O
+
+about O O
+
+1 O O
+
+nS O O
+
+. O O
+
+The O O
+
+activation B-Parameter O
+
+and O O
+
+deactivation B-Parameter O
+
+time I-Parameter O
+
+constants I-Parameter O
+
+of O O
+
+the O O
+
+conductance O O
+
+ranged O O
+
+from O O
+
+100 O O
+
+to O O
+
+1000 O O
+
+ms O O
+
+, O O
+
+depending O O
+
+on O O
+
+membrane B-Parameter B-Parameter
+
+potential I-Parameter I-Parameter
+
+. I-Parameter O
+
+The O O
+
+depolarizing O O
+
+voltage O O
+
+sags O O
+
+and O O
+
+I-V O O
+
+relationship O O
+
+were O O
+
+further O O
+
+simulated O O
+
+in O O
+
+a O O
+
+model O O
+
+interneuron O O
+
+, O O
+
+using O O
+
+the O O
+
+parameters O O
+
+of O O
+
+the O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+obtained O O
+
+from O O
+
+the O O
+
+voltage O O
+
+- O O
+
+clamp O O
+
+study O O
+
+. O O
+
+The O O
+
+time O O
+
+- O O
+
+course O O
+
+and O O
+
+voltage O O
+
+dependence O O
+
+of O O
+
+the O O
+
+depolarizing O O
+
+voltage O O
+
+sags O O
+
+and O O
+
+I-V O O
+
+relationship O O
+
+in O O
+
+the O O
+
+model O O
+
+cell O O
+
+were O O
+
+very O O
+
+similar O O
+
+to O O
+
+those O O
+
+found O O
+
+in O O
+
+geniculate O O
+
+interneurons O O
+
+in O O
+
+current O O
+
+clamp O O
+
+. O O
+
+Taken O O
+
+together O O
+
+, O O
+
+the O O
+
+results O O
+
+of O O
+
+the O O
+
+present O O
+
+study O O
+
+suggest O O
+
+that O O
+
+thalamic O O
+
+local O O
+
+interneurons O O
+
+possess O O
+
+a O O
+
+prominent O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cation O O
+
+conductance O O
+
+, O O
+
+which O O
+
+may O O
+
+play O O
+
+important O O
+
+roles O O
+
+in O O
+
+determining O O
+
+basic O O
+
+membrane O O
+
+properties O O
+
+and O O
+
+in O O
+
+modulating O O
+
+firing O O
+
+patterns O O
+
+. O O
+
+<UNK> O O
+
+, O O
+
+it O O
+
+is O O
+
+believed O O
+
+that O O
+
+cell O O
+
+- O O
+
+cell O O
+
+communications O O
+
+occur O O
+
+in O O
+
+the O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+( O O
+
+RT O O
+
+) O O
+
+during O O
+
+thalamocortical O O
+
+operations O O
+
+, O O
+
+but O O
+
+the O O
+
+anatomical O O
+
+substrate O O
+
+underlying O O
+
+these O O
+
+intrinsic O O
+
+interactions O O
+
+has O O
+
+not O O
+
+been O O
+
+characterized O O
+
+fully O O
+
+in O O
+
+the O O
+
+rat O O
+
+yet O O
+
+. O O
+
+To O O
+
+further O O
+
+our O O
+
+knowledge O O
+
+on O O
+
+this O O
+
+issue O O
+
+, O O
+
+we O O
+
+stained O O
+
+juxtacellularly O O
+
+rat O O
+
+RT O O
+
+neurons O O
+
+with O O
+
+biocytin O O
+
+or O O
+
+Neurobiotin O O
+
+and O O
+
+examined O O
+
+their O O
+
+intrinsic O O
+
+axon O O
+
+collaterals O O
+
+and O O
+
+" O O
+
+axon O O
+
+- O O
+
+like O O
+
+processes O O
+
+" O O
+
+at O O
+
+both O O
+
+light O O
+
+and O O
+
+electron O O
+
+microscopic O O
+
+levels O O
+
+. O O
+
+Of O O
+
+111 O O
+
+tracer O O
+
+- O O
+
+filled O O
+
+RT O O
+
+cells O O
+
+for O O
+
+which O O
+
+the O O
+
+axon O O
+
+could O O
+
+be O O
+
+followed O O
+
+from O O
+
+its O O
+
+origin O O
+
+up O O
+
+to O O
+
+the O O
+
+thalamus O O
+
+, O O
+
+12 O O
+
+displayed O O
+
+short O O
+
+- O O
+
+range O O
+
+, O O
+
+poorly O O
+
+ramifying O O
+
+varicose O O
+
+local O O
+
+axon O O
+
+collaterals O O
+
+, O O
+
+which O O
+
+remained O O
+
+undistinguishable O O
+
+from O O
+
+parent O O
+
+distal O O
+
+dendrites O O
+
+, O O
+
+raising O O
+
+the O O
+
+question O O
+
+as O O
+
+to O O
+
+whether O O
+
+their O O
+
+varicosities O O
+
+were O O
+
+presynaptic O O
+
+terminals O O
+
+. O O
+
+Correlated O O
+
+light O O
+
+and O O
+
+electron O O
+
+microscopic O O
+
+observations O O
+
+of O O
+
+the O O
+
+proximal O O
+
+part O O
+
+of O O
+
+these O O
+
+intrinsic O O
+
+varicose O O
+
+axonal O O
+
+segments O O
+
+revealed O O
+
+that O O
+
+their O O
+
+varicosities O O
+
+and O O
+
+intervaricose O O
+
+segments O O
+
+were O O
+
+, O O
+
+in O O
+
+fact O O
+
+, O O
+
+postsynaptic O O
+
+structures O O
+
+contacted O O
+
+by O O
+
+a O O
+
+large O O
+
+number B-Parameter O
+
+of I-Parameter O
+
+boutons I-Parameter O
+
+that O O
+
+, O O
+
+for O O
+
+the O O
+
+most O O
+
+, O O
+
+formed O O
+
+asymmetric O O
+
+synapses O O
+
+and O O
+
+were O O
+
+nonimmunoreactive O O
+
+for O O
+
+GABA O O
+
+. O O
+
+Similarly O O
+
+, O O
+
+the O O
+
+so O O
+
+- O O
+
+called O O
+
+" O O
+
+axon O O
+
+- O O
+
+like O O
+
+processes O O
+
+" O O
+
+stemming O O
+
+from O O
+
+the O O
+
+soma O O
+
+or O O
+
+dendrites O O
+
+also O O
+
+were O O
+
+identified O O
+
+as O O
+
+postsynaptic O O
+
+structures O O
+
+. O O
+
+Two O O
+
+unexpected O O
+
+observations O O
+
+were O O
+
+made O O
+
+in O O
+
+the O O
+
+course O O
+
+of O O
+
+this O O
+
+analysis O O
+
+. O O
+
+First O O
+
+, O O
+
+the O O
+
+hillock O O
+
+and O O
+
+initial O O
+
+segment O O
+
+of O O
+
+some O O
+
+RT O O
+
+axons O O
+
+were O O
+
+found O O
+
+to O O
+
+receive O O
+
+asymmetric O O
+
+synaptic O O
+
+inputs O O
+
+from O O
+
+GABA-negative O O
+
+terminals O O
+
+. O O
+
+Second O O
+
+, O O
+
+examination O O
+
+of O O
+
+serial O O
+
+ultrathin O O
+
+sections O O
+
+of O O
+
+dendritic O O
+
+bundles O O
+
+cut O O
+
+in O O
+
+their O O
+
+longitudinal O O
+
+plane O O
+
+revealed O O
+
+the O O
+
+existence O O
+
+of O O
+
+several O O
+
+short O O
+
+symmetric O O
+
+dendrodendritic O O
+
+synapses O O
+
+and O O
+
+numerous O O
+
+puncta O O
+
+adhaerentia O O
+
+between O O
+
+component O O
+
+dendrites O O
+
+. O O
+
+In O O
+
+conclusion O O
+
+, O O
+
+dendrodendritic O O
+
+junctions O O
+
+might O O
+
+be O O
+
+a O O
+
+prominent O O
+
+anatomical O O
+
+substrate O O
+
+underlying O O
+
+interneuronal O O
+
+communications O O
+
+in O O
+
+the O O
+
+RT O O
+
+of O O
+
+the O O
+
+adult O O
+
+rat O O
+
+. O O
+
+Furthermore O O
+
+, O O
+
+excitatory O O
+
+axoaxonic O O
+
+synapses O O
+
+on O O
+
+the O O
+
+axon O O
+
+hillock O O
+
+, O O
+
+initial O O
+
+segment O O
+
+, O O
+
+and O O
+
+local O O
+
+axon O O
+
+collaterals O O
+
+might O O
+
+represent O O
+
+a O O
+
+powerful O O
+
+synaptic O O
+
+drive O O
+
+for O O
+
+synchronizing O O
+
+the O O
+
+firing O O
+
+of O O
+
+RT O O
+
+neurons O O
+
+. O O
+
+Future O O
+
+studies O O
+
+are O O
+
+essential O O
+
+to O O
+
+verify O O
+
+whether O O
+
+excitatory O O
+
+axoaxonic O O
+
+synapses O O
+
+with O O
+
+the O O
+
+axon O O
+
+hillock O O
+
+are O O
+
+a O O
+
+general O O
+
+feature O O
+
+in O O
+
+the O O
+
+RT O O
+
+. O O
+
+T O O
+
+- O O
+
+type O O
+
+Ca2+ O O
+
+channels O O
+
+in O O
+
+thalamocortical O O
+
+( O O
+
+TC O O
+
+) O O
+
+neurons O O
+
+have O O
+
+long O O
+
+been O O
+
+considered O O
+
+to O O
+
+play O O
+
+a O O
+
+critical O O
+
+role O O
+
+in O O
+
+the O O
+
+genesis O O
+
+of O O
+
+sleep O O
+
+spindles O O
+
+, O O
+
+one O O
+
+of O O
+
+several O O
+
+TC O O
+
+oscillations O O
+
+. O O
+
+A O O
+
+classical O O
+
+model O O
+
+for O O
+
+TC O O
+
+oscillations O O
+
+states O O
+
+that O O
+
+reciprocal O O
+
+interaction O O
+
+between O O
+
+synaptically O O
+
+connected O O
+
+GABAergic O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+( O O
+
+TRN O O
+
+) O O
+
+neurons O O
+
+and O O
+
+glutamatergic O O
+
+TC O O
+
+neurons O O
+
+generates O O
+
+oscillations O O
+
+through O O
+
+T O O
+
+- O O
+
+type O O
+
+channel O O
+
+- O O
+
+mediated O O
+
+low O O
+
+- O O
+
+threshold O O
+
+burst O O
+
+firings O O
+
+of O O
+
+neurons O O
+
+in O O
+
+the O O
+
+two O O
+
+nuclei O O
+
+. O O
+
+These O O
+
+oscillations O O
+
+are O O
+
+then O O
+
+transmitted O O
+
+from O O
+
+TC O O
+
+neurons O O
+
+to O O
+
+cortical O O
+
+neurons O O
+
+, O O
+
+contributing O O
+
+to O O
+
+the O O
+
+network O O
+
+of O O
+
+TC O O
+
+oscillations O O
+
+. O O
+
+Unexpectedly O O
+
+, O O
+
+however O O
+
+, O O
+
+we O O
+
+found O O
+
+that O O
+
+both O O
+
+WT O O
+
+and O O
+
+KO O O
+
+mice O O
+
+for O O
+
+CaV3.1 O O
+
+, O O
+
+the O O
+
+gene O O
+
+for O O
+
+T O O
+
+- O O
+
+type O O
+
+Ca2+ O O
+
+channels O O
+
+in O O
+
+TC O O
+
+neurons O O
+
+, O O
+
+exhibit O O
+
+typical O O
+
+waxing O O
+
+- O O
+
+and O O
+
+- O O
+
+waning O O
+
+sleep O O
+
+spindle O O
+
+waves O O
+
+at O O
+
+a O O
+
+similar O O
+
+occurrence O O
+
+and O O
+
+with O O
+
+similar O O
+
+amplitudes O O
+
+and O O
+
+episode O O
+
+durations O O
+
+during O O
+
+non-rapid O O
+
+eye O O
+
+movement O O
+
+sleep O O
+
+. O O
+
+Single O O
+
+- O O
+
+unit O O
+
+recording O O
+
+in O O
+
+parallel O O
+
+with O O
+
+electroencephalography O O
+
+in O O
+
+vivo O O
+
+confirmed O O
+
+a O O
+
+complete O O
+
+lack O O
+
+of O O
+
+burst O O
+
+firing O O
+
+in O O
+
+the O O
+
+mutant O O
+
+TC O O
+
+neurons O O
+
+. O O
+
+Of O O
+
+particular O O
+
+interest O O
+
+, O O
+
+the O O
+
+tonic O O
+
+spike O O
+
+frequency O O
+
+in O O
+
+TC O O
+
+neurons O O
+
+was O O
+
+significantly O O
+
+increased O O
+
+during O O
+
+spindle O O
+
+periods O O
+
+compared O O
+
+with O O
+
+nonspindle O O
+
+periods O O
+
+in O O
+
+both O O
+
+genotypes O O
+
+. O O
+
+In O O
+
+contrast O O
+
+, O O
+
+no O O
+
+significant O O
+
+change O O
+
+in O O
+
+burst O O
+
+firing O O
+
+frequency O O
+
+between O O
+
+spindle O O
+
+and O O
+
+nonspindle O O
+
+periods O O
+
+was O O
+
+noted O O
+
+in O O
+
+the O O
+
+WT O O
+
+mice O O
+
+. O O
+
+Furthermore O O
+
+, O O
+
+spindle O O
+
+- O O
+
+like O O
+
+oscillations O O
+
+were O O
+
+readily O O
+
+generated O O
+
+within O O
+
+intrathalamic O O
+
+circuits O O
+
+composed O O
+
+solely O O
+
+of O O
+
+TRN O O
+
+and O O
+
+TC O O
+
+neurons O O
+
+in O O
+
+vitro O O
+
+in O O
+
+both O O
+
+the O O
+
+KO O O
+
+mutant O O
+
+and O O
+
+WT O O
+
+mice O O
+
+. O O
+
+Our O O
+
+findings O O
+
+call O O
+
+into O O
+
+question O O
+
+the O O
+
+essential O O
+
+role O O
+
+of O O
+
+low O O
+
+- O O
+
+threshold O O
+
+burst O O
+
+firings O O
+
+in O O
+
+TC O O
+
+neurons O O
+
+and O O
+
+suggest O O
+
+that O O
+
+tonic O O
+
+firing O O
+
+is O O
+
+important O O
+
+for O O
+
+the O O
+
+generation O O
+
+and O O
+
+propagation O O
+
+of O O
+
+spindle O O
+
+oscillations O O
+
+in O O
+
+the O O
+
+TC O O
+
+circuit O O
+
+. O O
+
+The O O
+
+gamma-aminobutyric O O
+
+acid O O
+
+- O O
+
+ergic O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+( O O
+
+Rt O O
+
+) O O
+
+, O O
+
+which O O
+
+carries O O
+
+matching O O
+
+topographical O O
+
+maps O O
+
+of O O
+
+both O O
+
+the O O
+
+thalamus O O
+
+and O O
+
+cortex O O
+
+and O O
+
+in O O
+
+which O O
+
+constituent O O
+
+cells O O
+
+can O O
+
+synaptically O O
+
+communicate O O
+
+between O O
+
+each O O
+
+other O O
+
+, O O
+
+is O O
+
+the O O
+
+major O O
+
+extrinsic O O
+
+source O O
+
+of O O
+
+thalamic O O
+
+inhibitions O O
+
+and O O
+
+disinhibitions O O
+
+. O O
+
+Whether O O
+
+all O O
+
+the O O
+
+Rt O O
+
+axonal O O
+
+projections O O
+
+into O O
+
+the O O
+
+thalamus O O
+
+are O O
+
+similarly O O
+
+organized O O
+
+and O O
+
+have O O
+
+common O O
+
+projection O O
+
+and O O
+
+innervation O O
+
+patterns O O
+
+are O O
+
+questions O O
+
+of O O
+
+great O O
+
+interest O O
+
+to O O
+
+further O O
+
+our O O
+
+knowledge O O
+
+of O O
+
+the O O
+
+functioning O O
+
+of O O
+
+the O O
+
+Rt O O
+
+. O O
+
+The O O
+
+present O O
+
+study O O
+
+provides O O
+
+architectural O O
+
+and O O
+
+morphometric O O
+
+data O O
+
+of O O
+
+individual O O
+
+, O O
+
+anterogradely O O
+
+labeled O O
+
+axonal O O
+
+arbors O O
+
+that O O
+
+arose O O
+
+from O O
+
+distinct O O
+
+parts O O
+
+of O O
+
+the O O
+
+Rt O O
+
+. O O
+
+One O O
+
+hundred O O
+
+twenty O O
+
+- O O
+
+seven O O
+
+Rt O O
+
+neurons O O
+
+from O O
+
+all O O
+
+regions O O
+
+of O O
+
+Rt O O
+
+were O O
+
+marked O O
+
+juxtacellularly O O
+
+with O O
+
+biocytin O O
+
+or O O
+
+Neurobiotin O O
+
+in O O
+
+urethane O O
+
+- O O
+
+anesthetized O O
+
+adult O O
+
+rats O O
+
+. O O
+
+Eighteen O O
+
+two O O
+
+- O O
+
+dimensional O O
+
+and O O
+
+14 O O
+
+three O O
+
+- O O
+
+dimensional O O
+
+reconstructions O O
+
+of O O
+
+single O O
+
+tracer O O
+
+- O O
+
+filled O O
+
+Rt O O
+
+neurons O O
+
+were O O
+
+made O O
+
+from O O
+
+serial O O
+
+, O O
+
+frontal O O
+
+, O O
+
+horizontal O O
+
+, O O
+
+or O O
+
+sagittal O O
+
+sections O O
+
+. O O
+
+Both O O
+
+the O O
+
+somatodendritic O O
+
+and O O
+
+axonal O O
+
+fields O O
+
+of O O
+
+tracer O O
+
+- O O
+
+filled O O
+
+Rt O O
+
+cells O O
+
+were O O
+
+mapped O O
+
+in O O
+
+three O O
+
+dimensions O O
+
+and O O
+
+illustrated O O
+
+to O O
+
+provide O O
+
+a O O
+
+complementary O O
+
+stereotaxic O O
+
+reference O O
+
+for O O
+
+future O O
+
+studies O O
+
+. O O
+
+Most O O
+
+marked O O
+
+units O O
+
+projected O O
+
+to O O
+
+a O O
+
+single O O
+
+nucleus O O
+
+of O O
+
+the O O
+
+anterior O O
+
+, O O
+
+dorsal O O
+
+, O O
+
+intralaminar O O
+
+, O O
+
+posterior O O
+
+, O O
+
+or O O
+
+ventral O O
+
+thalamus O O
+
+. O O
+
+Axons O O
+
+emerging O O
+
+from O O
+
+cells O O
+
+in O O
+
+distinct O O
+
+sectors O O
+
+of O O
+
+the O O
+
+Rt O O
+
+projected O O
+
+to O O
+
+distinct O O
+
+nuclei O O
+
+. O O
+
+Within O O
+
+a O O
+
+sector O O
+
+, O O
+
+neurons O O
+
+with O O
+
+separate O O
+
+dendritic O O
+
+fields O O
+
+innervated O O
+
+separate O O
+
+regions O O
+
+either O O
+
+in O O
+
+a O O
+
+single O O
+
+nucleus O O
+
+or O O
+
+into O O
+
+different O O
+
+but O O
+
+functionally O O
+
+related O O
+
+thalamic O O
+
+nuclei O O
+
+. O O
+
+Neurons O O
+
+with O O
+
+an O O
+
+overlap O O
+
+of O O
+
+their O O
+
+dendritic O O
+
+fields O O
+
+gave O O
+
+rise O O
+
+either O O
+
+to O O
+
+overlapping O O
+
+axonal O O
+
+arborizations O O
+
+or O O
+
+, O O
+
+more O O
+
+rarely O O
+
+, O O
+
+to O O
+
+distinct O O
+
+axonal O O
+
+arbors O O
+
+within O O
+
+two O O
+
+different O O
+
+thalamic O O
+
+nuclei O O
+
+implicated O O
+
+in O O
+
+the O O
+
+same O O
+
+function O O
+
+. O O
+
+In O O
+
+rare O O
+
+instances O O
+
+, O O
+
+an O O
+
+Rt O O
+
+axon O O
+
+could O O
+
+project O O
+
+within O O
+
+these O O
+
+two O O
+
+nuclei O O
+
+. O O
+
+Thalamic O O
+
+reticular O O
+
+axons O O
+
+commonly O O
+
+displayed O O
+
+a O O
+
+single O O
+
+well O O
+
+- O O
+
+circumscribed O O
+
+arbor O O
+
+containing O O
+
+a O O
+
+total O O
+
+of O O
+
+about O O
+
+4,000 O O
+
++ O O
+
+/ O O
+
+- O O
+
+1,000 O O
+
+boutons B-Parameter O
+
+. B-Parameter O
+
+Every O O
+
+arbor O O
+
+was O O
+
+composed O O
+
+of O O
+
+a O O
+
+dense O O
+
+central O O
+
+core O O
+
+, O O
+
+which O O
+
+encompassed O O
+
+a O O
+
+thalamic B-Parameter O
+
+volume I-Parameter O
+
+of O O
+
+5-63 O O
+
+x O O
+
+<UNK> O O
+
+microm3 O O
+
+and O O
+
+was O O
+
+made O O
+
+up O O
+
+of O O
+
+patches O O
+
+of O O
+
+maximal O O
+
+innervation B-Parameter O
+
+density I-Parameter B-Parameter
+
+( O I-Parameter
+
+10 O O
+
++ O O
+
+/ O O
+
+- O O
+
+4 O O
+
+boutons O O
+
+/ O O
+
+tissue O O
+
+cube O O
+
+of O O
+
+25 O O
+
+microm O O
+
+each O O
+
+side O O
+
+) O O
+
+, O O
+
+surrounded O O
+
+by O O
+
+a O O
+
+sparse O O
+
+component O O
+
+. O O
+
+The O O
+
+metric O O
+
+relationships O O
+
+between O O
+
+the O O
+
+Rt O O
+
+axonal O O
+
+arbors O O
+
+and O O
+
+the O O
+
+dendrites O O
+
+of O O
+
+their O O
+
+target O O
+
+thalamocortical O O
+
+neurons O O
+
+were O O
+
+determined O O
+
+. O O
+
+Both O O
+
+the O O
+
+size B-Parameter O
+
+and O O
+
+maximal B-Parameter O
+
+innervation I-Parameter O
+
+density I-Parameter O
+
+of O O
+
+the O O
+
+axonal O O
+
+patches O O
+
+were O O
+
+found O O
+
+to O O
+
+fit O O
+
+in O O
+
+with O O
+
+the O O
+
+somatodendritic O O
+
+architecture O O
+
+of O O
+
+the O O
+
+target O O
+
+cells O O
+
+. O O
+
+The O O
+
+Rt O O
+
+axonal O O
+
+projections O O
+
+of O O
+
+adult O O
+
+rats O O
+
+are O O
+
+thus O O
+
+characterized O O
+
+by O O
+
+their O O
+
+( O O
+
+1 O O
+
+) O O
+
+well O O
+
+- O O
+
+focused O O
+
+terminal O O
+
+field O O
+
+with O O
+
+a O O
+
+patchy O O
+
+distribution O O
+
+of O O
+
+boutons O O
+
+and O O
+
+( O O
+
+2 O O
+
+) O O
+
+parallel O O
+
+organization O O
+
+with O O
+
+a O O
+
+certain O O
+
+degree O O
+
+of O O
+
+divergence O O
+
+. O O
+
+The O O
+
+role O O
+
+of O O
+
+the O O
+
+Rt O O
+
+- O O
+
+mediated O O
+
+thalamic O O
+
+inhibition O O
+
+and O O
+
+disinhibition O O
+
+may O O
+
+be O O
+
+to O O
+
+contrast O O
+
+significant O O
+
+with O O
+
+nonrelevant O O
+
+ongoing O O
+
+thalamocortical O O
+
+information O O
+
+. O O
+
+The O O
+
+inhibitory O O
+
+sources O O
+
+in O O
+
+the O O
+
+thalamic O O
+
+nuclei O O
+
+are O O
+
+local O O
+
+interneurons O O
+
+and O O
+
+neurons O O
+
+of O O
+
+the O O
+
+thalamic O O
+
+reticular O O
+
+nucleus O O
+
+. O O
+
+Studies O O
+
+of O O
+
+models O O
+
+of O O
+
+absence O O
+
+epilepsy O O
+
+have O O
+
+shown O O
+
+that O O
+
+the O O
+
+seizures O O
+
+are O O
+
+associated O O
+
+with O O
+
+an O O
+
+excess O O
+
+of O O
+
+inhibitory O O
+
+neurotransmission O O
+
+in O O
+
+the O O
+
+thalamus O O
+
+. O O
+
+In O O
+
+the O O
+
+present O O
+
+study O O
+
+, O O
+
+we O O
+
+used O O
+
+light O O
+
+- O O
+
+microscopic O O
+
+gamma-aminobutyric O O
+
+acid O O
+
+( O O
+
+GABA O O
+
+) O O
+
+immunocytochemistry O O
+
+to O O
+
+quantify O O
+
+the O O
+
+interneurons O O
+
+in O O
+
+the O O
+
+lateral O O
+
+geniculate O O
+
+( O O
+
+LGN O O
+
+) O O
+
+, O O
+
+ventral O O
+
+posteromedial O O
+
+( O O
+
+VPM O O
+
+) O O
+
+, O O
+
+and O O
+
+ventral O O
+
+posterolateral O O
+
+( O O
+
+VPL O O
+
+) O O
+
+thalamic O O
+
+nuclei O O
+
+, O O
+
+and O O
+
+compared O O
+
+the O O
+
+values O O
+
+from O O
+
+normal O O
+
+Wistar O O
+
+rats O O
+
+and O O
+
+genetic O O
+
+absence O O
+
+epilepsy O O
+
+rats O O
+
+from O O
+
+Strasbourg O O
+
+( O O
+
+GAERS O O
+
+) O O
+
+. O O
+
+We O O
+
+found O O
+
+that O O
+
+in O O
+
+both O O
+
+Wistar O O
+
+rats O O
+
+and O O
+
+GAERS O O
+
+, O O
+
+the O O
+
+proportion O O
+
+of O O
+
+interneurons O O
+
+was O O
+
+significantly O O
+
+higher O O
+
+in O O
+
+the O O
+
+LGN O O
+
+than O O
+
+in O O
+
+the O O
+
+VPM O O
+
+and O O
+
+VPL O O
+
+. O O
+
+In O O
+
+the O O
+
+LGN O O
+
+of O O
+
+Wistar O O
+
+rats O O
+
+, O O
+
+<UNK> O O
+
+of O O
+
+the O O
+
+neurons O O
+
+were O O
+
+interneurons O O
+
+and O O
+
+in O O
+
+the O O
+
+GAERS O O
+
+, O O
+
+the O O
+
+value O O
+
+was O O
+
+<UNK> O O
+
+. O O
+
+In O O
+
+the O O
+
+VPM O O
+
+, O O
+
+the O O
+
+proportion O O
+
+of O O
+
+interneurons O O
+
+was O O
+
+<UNK> O O
+
+in O O
+
+Wistar O O
+
+and O O
+
+<UNK> O O
+
+in O O
+
+GAERS O O
+
+; O O
+
+in O O
+
+the O O
+
+VPL O O
+
+the O O
+
+values O O
+
+were O O
+
+<UNK> O O
+
+for O O
+
+Wistar O O
+
+and O O
+
+<UNK> O O
+
+for O O
+
+the O O
+
+GAERS O O
+
+. O O
+
+There O O
+
+was O O
+
+no O O
+
+significant O O
+
+difference O O
+
+between O O
+
+Wistar O O
+
+rats O O
+
+and O O
+
+the O O
+
+GAERS O O
+
+regarding O O
+
+the O O
+
+counts B-Parameter O
+
+of I-Parameter O
+
+interneurons B-Parameter O
+
+in O O
+
+the O O
+
+LGN O O
+
+, O O
+
+whereas O O
+
+the O O
+
+VPM O O
+
+and O O
+
+VPL O O
+
+showed O O
+
+significantly O O
+
+higher O O
+
+counts B-Parameter O
+
+in O O
+
+GAERS O O
+
+. O O
+
+Comparison O O
+
+of O O
+
+the O O
+
+mean B-Parameter O
+
+areas I-Parameter O
+
+of O O
+
+both O O
+
+relay O O
+
+cells O O
+
+and O O
+
+interneuronal O O
+
+profiles O O
+
+showed O O
+
+no O O
+
+significant O O
+
+differences O O
+
+between O O
+
+Wistar O O
+
+rats O O
+
+and O O
+
+GAERS O O
+
+. O O
+
+These O O
+
+findings O O
+
+show O O
+
+that O O
+
+in O O
+
+the O O
+
+VPL O O
+
+and O O
+
+the O O
+
+VPM O O
+
+there O O
+
+are O O
+
+relatively O O
+
+more O O
+
+GABAergic O O
+
+interneurons O O
+
+in O O
+
+GAERS O O
+
+than O O
+
+in O O
+
+Wistar O O
+
+rats O O
+
+. O O
+
+This O O
+
+may O O
+
+represent O O
+
+a O O
+
+compensatory O O
+
+response O O
+
+of O O
+
+the O O
+
+thalamocortical O O
+
+circuitry O O
+
+to O O
+
+the O O
+
+absence O O
+
+seizures O O
+
+or O O
+
+may O O
+
+be O O
+
+related O O
+
+to O O
+
+the O O
+
+production O O
+
+of O O
+
+absence O O
+
+seizures O O
+
+. O O
+
+The O O
+
+signaling O O
+
+properties O O
+
+of O O
+
+thalamocortical O O
+
+( O O
+
+TC O O
+
+) O O
+
+neurons O O
+
+depend O O
+
+on O O
+
+the O O
+
+diversity O O
+
+of O O
+
+ion O O
+
+conductance O O
+
+mechanisms O O
+
+that O O
+
+underlie O O
+
+their O O
+
+rich O O
+
+membrane O O
+
+behavior O O
+
+at O O
+
+subthreshold O O
+
+potentials O O
+
+. O O
+
+Using O O
+
+patch O O
+
+- O O
+
+clamp O O
+
+recordings O O
+
+of O O
+
+TC O O
+
+neurons O O
+
+in O O
+
+brain O O
+
+slices O O
+
+from O O
+
+mice O O
+
+and O O
+
+a O O
+
+realistic O O
+
+conductance O O
+
+- O O
+
+based O O
+
+computational O O
+
+model O O
+
+, O O
+
+we O O
+
+characterized O O
+
+seven O O
+
+subthreshold O O
+
+ion O O
+
+currents O O
+
+of O O
+
+TC O O
+
+neurons O O
+
+and O O
+
+quantified O O
+
+their O O
+
+individual O O
+
+contributions O O
+
+to O O
+
+the O O
+
+total O O
+
+steady O O
+
+- O O
+
+state O O
+
+conductance O O
+
+at O O
+
+levels O O
+
+below O O
+
+tonic O O
+
+firing O O
+
+threshold O O
+
+. O O
+
+We O O
+
+then O O
+
+used O O
+
+the O O
+
+TC O O
+
+neuron O O
+
+model O O
+
+to O O
+
+show O O
+
+that O O
+
+the O O
+
+resting O B-Parameter
+
+membrane O I-Parameter
+
+potential O I-Parameter
+
+results O O
+
+from O O
+
+the O O
+
+interplay O O
+
+of O O
+
+several O O
+
+inward O O
+
+and O O
+
+outward O O
+
+currents O O
+
+over O O
+
+a O O
+
+background O O
+
+provided O O
+
+by O O
+
+the O O
+
+potassium O O
+
+and O O
+
+sodium O O
+
+leak O O
+
+currents O O
+
+. O O
+
+The O O
+
+steady O O
+
+- O O
+
+state O O
+
+conductances O O
+
+of O O
+
+depolarizing O O
+
+Ih O O
+
+( O O
+
+hyperpolarization O O
+
+- O O
+
+activated O O
+
+cationic O O
+
+current O O
+
+) O O
+
+, O O
+
+IT O O
+
+( O O
+
+low O O
+
+- O O
+
+threshold O O
+
+calcium O O
+
+current O O
+
+) O O
+
+, O O
+
+and O O
+
+INaP O O
+
+( O O
+
+persistent O O
+
+sodium O O
+
+current O O
+
+) O O
+
+move O O
+
+the O O
+
+membrane O O
+
+potential O O
+
+away O O
+
+from O O
+
+the O O
+
+reversal O B-Parameter
+
+potential O I-Parameter
+
+of O O
+
+the O O
+
+leak O O
+
+conductances O O
+
+. O O
+
+This O O
+
+depolarization O O
+
+is O O
+
+counteracted O O
+
+in O O
+
+turn O O
+
+by O O
+
+the O O
+
+hyperpolarizing O O
+
+steady O O
+
+- O O
+
+state O O
+
+current O O
+
+of O O
+
+IA O O
+
+( O O
+
+fast O O
+
+transient O O
+
+A O O
+
+- O O
+
+type O O
+
+potassium O O
+
+current O O
+
+) O O
+
+and O O
+
+IKir O O
+
+( O O
+
+inwardly O O
+
+rectifying O O
+
+potassium O O
+
+current O O
+
+) O O
+
+. O O
+
+Using O O
+
+the O O
+
+computational O O
+
+model O O
+
+, O O
+
+we O O
+
+have O O
+
+shown O O
+
+that O O
+
+single O O
+
+parameter O O
+
+variations O O
+
+compatible O O
+
+with O O
+
+physiological O O
+
+or O O
+
+pathological O O
+
+modulation O O
+
+promote O O
+
+burst O O
+
+firing O O
+
+periodicity O O
+
+. O O
+
+The O O
+
+balance O O
+
+between O O
+
+three O O
+
+amplifying O O
+
+variables O O
+
+( O O
+
+activation O O
+
+of O O
+
+IT O O
+
+, O O
+
+activation O O
+
+of O O
+
+INaP O O
+
+, O O
+
+and O O
+
+activation O O
+
+of O O
+
+IKir O O
+
+) O O
+
+and O O
+
+three O O
+
+recovering O O
+
+variables O O
+
+( O O
+
+inactivation O O
+
+of O O
+
+IT O O
+
+, O O
+
+activation O O
+
+of O O
+
+IA O O
+
+, O O
+
+and O O
+
+activation O O
+
+of O O
+
+Ih O O
+
+) O O
+
+determines O O
+
+the O O
+
+propensity O O
+
+, O O
+
+or O O
+
+lack O O
+
+thereof O O
+
+, O O
+
+of O O
+
+repetitive O O
+
+burst O O
+
+firing O O
+
+of O O
+
+TC O O
+
+neurons O O
+
+. O O
+
+We O O
+
+also O O
+
+have O O
+
+determined O O
+
+the O O
+
+specific O O
+
+roles O O
+
+that O O
+
+each O O
+
+of O O
+
+these O O
+
+variables O O
+
+have O O
+
+during O O
+
+the O O
+
+intrinsic O O
+
+oscillation O O
+
+. O O

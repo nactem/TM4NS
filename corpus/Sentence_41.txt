@@ -1,1 +1,0 @@
-Voltage-clamp recordings showed that bicuculline-M blocked the current underlying the low-threshold spike burst afterhyperpolarization (AHP), an effect that was mimicked by apamin (100 nM).
